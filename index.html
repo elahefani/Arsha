@@ -1,0 +1,1686 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <title>ARSHA</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <script src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./script.js" defer></script>
+</head>
+
+<body>
+    <div class="navigation">
+        <div class="navigation__container">
+            <h2 class="heading-secondary">
+                <a class="navigation__title" href="#">ARSHA</a>
+            </h2>
+            <nav class="navigation__nav">
+                <ul class="navigation__list">
+                    <li class="navigation__item">
+                        <a class="navigation__link" href="#header">Home</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a class="navigation__link" href="#about">About</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a class="navigation__link" href="#services">Services</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a class="navigation__link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a class="navigation__link" href="#team">Team</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a class="navigation__link" href="#pricing">Pricing</a>
+                    </li>
+                    <li class="navigation__item navigation__item--dropdown">
+                        <a class="navigation__link navigation__link--dropdown" href="#">Dropdown
+                            <svg class="navigation__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960">
+                                <path d="M480-344 240-584l56-56 184 184 184-184 56 56-240 240Z" stroke="#e8eaed"
+                                    stroke-width=".5" />
+                            </svg>
+                        </a>
+                        <ul class="navigation__dropdown">
+                            <li class="navigation__dropdown-item">
+                                <a class="navigation__dropdown-link" href="#">Dropdown 1</a>
+                            </li>
+                            <li class="navigation__dropdown-item navigation__dropdown-item--deep">
+                                <a class="navigation__dropdown-link navigation__dropdown-link--deep" href="#">Deep
+                                    Dropdown
+                                    <svg class="navigation__icon navigation__icon--deep"
+                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960">
+                                        <path d="M480-344 240-584l56-56 184 184 184-184 56 56-240 240Z" />
+                                    </svg>
+                                </a>
+                                <ul class="navigation__deep-dropdown">
+                                    <li class="navigation__deep-dropdown-item">
+                                        <a class="navigation__deep-dropdown-link" href="#">Deep Dropdown 1</a>
+                                    </li>
+                                    <li class="navigation__deep-dropdown-item">
+                                        <a class="navigation__deep-dropdown-link" href="#">Deep Dropdown 2</a>
+                                    </li>
+                                    <li class="navigation__deep-dropdown-item">
+                                        <a class="navigation__deep-dropdown-link" href="#">Deep Dropdown 3</a>
+                                    </li>
+                                    <li class="navigation__deep-dropdown-item">
+                                        <a class="navigation__deep-dropdown-link" href="#">Deep Dropdown 4</a>
+                                    </li>
+                                    <li class="navigation__deep-dropdown-item">
+                                        <a class="navigation__deep-dropdown-link" href="#">Deep Dropdown 5</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="navigation__dropdown-item">
+                                <a class="navigation__dropdown-link" href="#">Dropdown 2</a>
+                            </li>
+                            <li class="navigation__dropdown-item">
+                                <a class="navigation__dropdown-link" href="#">Dropdown 3</a>
+                            </li>
+                            <li class="navigation__dropdown-item">
+                                <a class="navigation__dropdown-link" href="#">Dropdown 4</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="navigation__item">
+                        <a class="navigation__link" href="#">Contact</a>
+                    </li>
+                    <li class="navigation__item navigation__item--cta">
+                        <a class="btn btn--blue" href="#">Get Started</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+    </div>
+
+    <header id="header" class="header">
+        <div class="header__container">
+            <div class="header__details">
+                <h1 class="heading-primary">
+                    Better Solutions For Your Business
+                </h1>
+                <h3 class="heading-tertiary">
+                    We are team of talented designers making websites with Bootstrap
+                </h3>
+                <div class="header__buttons">
+
+                    <div class="header__left-btn">
+                        <a href="#" class="header__link btn btn--blue">Get Started</a>
+                    </div>
+
+                    <div class="header__right-btn">
+
+                        <a href="" class="header__link btn btn--text">
+                            <svg class="header__icon" xmlns="http://www.w3.org/2000/svg" height="24px"
+                                viewBox="0 -960 960 960" fill="#e8eaed">
+                                <path
+                                    d="m380-300 280-180-280-180v360ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+                            </svg>
+                            Watch Video</a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="header__img-container">
+                <img class="header__img" src="assets/img/hero-img.png" alt="photo">
+            </div>
+        </div>
+
+    </header>
+
+    <section class="client-section">
+
+        <div class="client-section__container">
+            <div class="client-section__swiper">
+                <div class="client-section__img-container">
+                    <img class="client-section__img" src="assets/img/clients/client-1.png" alt="photo">
+                </div>
+                <div class="client-section__img-container">
+                    <img class="client-section__img" src="assets/img/clients/client-2.png" alt="photo">
+                </div>
+                <div class="client-section__img-container">
+                    <img class="client-section__img" src="assets/img/clients/client-3.png" alt="photo">
+                </div>
+                <div class="client-section__img-container">
+                    <img class="client-section__img" src="assets/img/clients/client-4.png" alt="photo">
+                </div>
+                <div class="client-section__img-container">
+                    <img class="client-section__img" src="assets/img/clients/client-5.png" alt="photo">
+                </div>
+                <div class="client-section__img-container">
+                    <img class="client-section__img" src="assets/img/clients/client-6.png" alt="photo">
+                </div>
+                <div class="client-section__img-container">
+                    <img class="client-section__img" src="assets/img/clients/client-7.png" alt="photo">
+                </div>
+                <div class="client-section__img-container">
+                    <img class="client-section__img" src="assets/img/clients/client-8.png" alt="photo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="container-title">
+            <h2 class="section-title">
+                about us
+            </h2>
+        </div>
+        <div class="row">
+            <div class="col-1-of-2">
+                <div class="about-section__container-side">
+                    <p class="about-section__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. </p>
+                    <ul class="about-section__list">
+                        <li class="about-section__item"><svg class="about-section__icon"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="#e8eaed">
+                                <path
+                                    d="M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q65 0 123 19t107 53l-58 59q-38-24-81-37.5T480-800q-133 0-226.5 93.5T160-480q0 133 93.5 226.5T480-160q133 0 226.5-93.5T800-480q0-18-2-36t-6-35l65-65q11 32 17 66t6 70q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm-56-216L254-466l56-56 114 114 400-401 56 56-456 457Z" />
+                            </svg><span class="about-section__span">Ullamco laboris nisi ut aliquip ex ea commodo
+                                consequat.</span></li>
+                        <li class="about-section__item"><svg class="about-section__icon"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="#e8eaed">
+                                <path
+                                    d="M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q65 0 123 19t107 53l-58 59q-38-24-81-37.5T480-800q-133 0-226.5 93.5T160-480q0 133 93.5 226.5T480-160q133 0 226.5-93.5T800-480q0-18-2-36t-6-35l65-65q11 32 17 66t6 70q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm-56-216L254-466l56-56 114 114 400-401 56 56-456 457Z" />
+                            </svg><span class="about-section__span">Duis aute irure dolor in reprehenderit in voluptate
+                                velit.</span></li>
+                        <li class="about-section__item"><svg class="about-section__icon"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="#e8eaed">
+                                <path
+                                    d="M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q65 0 123 19t107 53l-58 59q-38-24-81-37.5T480-800q-133 0-226.5 93.5T160-480q0 133 93.5 226.5T480-160q133 0 226.5-93.5T800-480q0-18-2-36t-6-35l65-65q11 32 17 66t6 70q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm-56-216L254-466l56-56 114 114 400-401 56 56-456 457Z" />
+                            </svg><span class="about-section__span">Ullamco laboris nisi ut aliquip ex ea
+                                commodo.</span></li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="col-1-of-2">
+                <div class="about-section__container-side">
+                    <p class="about-section__text">Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+                        id est laborum.
+                    </p>
+                    <div class="about-section__link-container">
+                        <a href="#" class="about-section__link">Read More <svg
+                                class="about-section__icon about-section__icon--link" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 -960 960 960" fill="#e8eaed">
+                                <path d="m560-240-56-58 142-142H160v-80h486L504-662l56-58 240 240-240 240Z" />
+                            </svg></a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="whyUs-section">
+        <div class="whyUs-section__container">
+            <div class="whyUs-section__detail-container">
+                <div class="whyUs-section__heading-container">
+                    <h2 class="whyUs-section__title">
+                        Eum ipsam laborum deleniti <span class="whyUs-section__title--span">velit pariatur architecto
+                            aut
+                            nihil</span>
+                    </h2>
+                    <p class="section-paragraph">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna aliqua. Duis aute irure dolor in reprehenderit
+                    </p>
+                </div>
+                <div class="wideDown">
+                    <div class="wideDown__item">
+                        <h3 class="wideDown__h3" data-target="click-1">
+                            <span class="wideDown__h3--span">01</span>
+                            Non consectetur a erat nam at lectus urna duis?
+                        </h3>
+                        <svg class="wideDown__icon" xmlns="http://www.w3.org/2000/svg" height="20px"
+                            viewBox="0 -960 960 960" width="20px" fill="#555555">
+                            <path d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z" />
+                        </svg>
+                        <div id="click-1" class="wideDown__description-container">
+                            <p class="wideDown__description">Dolor sit amet consectetur adipiscing elit
+                                pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla
+                                phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper
+                                dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
+                        </div>
+                    </div>
+
+                    <div class="wideDown__item">
+                        <h3 class="wideDown__h3" data-target="click-2">
+                            <span class="wideDown__h3--span">02</span>
+                            Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?
+                        </h3>
+                        <svg class="wideDown__icon" xmlns="http://www.w3.org/2000/svg" height="20px"
+                            viewBox="0 -960 960 960" width="20px" fill="#555555">
+                            <path d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z" />
+                        </svg>
+                        <div id="click-2" class="wideDown__description-container">
+                            <p class="wideDown__description">Feugiat pretium nibh ipsum consequat. Tempus iaculis
+                                urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla
+                                urna porttitor rhoncus dolor purus non.</p>
+                        </div>
+                    </div>
+
+                    <div class="wideDown__item">
+                        <h3 class="wideDown__h3" data-target="click-3">
+                            <span class="wideDown__h3--span">03</span>
+                            Dolor sit amet consectetur adipiscing elit pellentesque?
+                        </h3>
+                        <svg class="wideDown__icon" xmlns="http://www.w3.org/2000/svg" height="20px"
+                            viewBox="0 -960 960 960" width="20px" fill="#555555">
+                            <path d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z" />
+                        </svg>
+                        <div id="click-3" class="wideDown__description-container">
+                            <p class="wideDown__description">Eleifend mi in nulla posuere sollicitudin aliquam
+                                ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra
+                                diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis
+                                convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="whyUs-section__img-container">
+                <img class="whyUs-section__img" src="assets/img/why-us.png" alt="photo">
+            </div>
+        </div>
+
+    </section>
+
+    <section class="skills-section">
+        <div class="skills-section__container">
+            <div class="skills-section__img-container">
+                <img class="skills-section__img" src="assets/img/skills.png" alt="photo">
+            </div>
+            <div class="skills-section__details-container">
+                <h2 class="skills-section__title">
+                    Voluptatem dignissimos provident quasi corporis voluptas
+                </h2>
+                <i class="section-paragraph">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore magna aliqua.
+                </i>
+                <div class="skills-section__skill-container">
+                    <span class="skills-section__skill-name">HTML</span>
+                    <div class="skills-section__wrap">
+                        <div class="skills-section__progress"></div>
+                    </div>
+                </div>
+                <div class="skills-section__skill-container">
+                    <span class="skills-section__skill-name">CSS</span>
+                    <div class="skills-section__wrap">
+                        <div class="skills-section__progress"></div>
+                    </div>
+                </div>
+                <div class="skills-section__skill-container">
+                    <span class="skills-section__skill-name">JavaScript</span>
+                    <div class="skills-section__wrap">
+                        <div class="skills-section__progress"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="services" class="services-section">
+
+        <div class="container-title">
+            <h2 class="section-title">services</h2>
+            <p class="section-paragraph">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+                consectetur velit</p>
+        </div>
+
+        <div class="row">
+            <div class="col-1-of-4">
+                <div class="card">
+                    <svg class="card__icon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="512" height="512"
+                        viewBox="0 0 512 512">
+                        <g id="icomoon-ignore">
+                        </g>
+                        <path
+                            d="M256 0c-141.385 0-256 114.615-256 256s114.615 256 256 256 256-114.615 256-256-114.615-256-256-256zM256 480.001c-31.479 0-61.436-6.506-88.615-18.226l116.574-131.145c2.603-2.929 4.041-6.711 4.041-10.63v-48c0-8.837-7.163-16-16-16-56.495 0-116.102-58.731-116.687-59.313-3-3.001-7.070-4.687-11.313-4.687h-64c-8.836 0-16 7.164-16 16v96c0 6.061 3.424 11.601 8.845 14.311l55.155 27.578v93.943c-58.026-40.478-96-107.716-96-183.832 0-34.357 7.745-66.903 21.569-96h58.431c4.244 0 8.313-1.686 11.314-4.686l64-64c3-3.001 4.686-7.070 4.686-11.314v-38.706c20.281-6.037 41.759-9.294 64-9.294 35.203 0 68.502 8.13 98.141 22.6-2.072 1.751-4.088 3.582-6.023 5.518-18.133 18.132-28.118 42.239-28.118 67.882s9.985 49.75 28.118 67.882c18.217 18.216 42.609 28.132 67.817 28.13 1.583 0 3.171-0.040 4.759-0.118 6.907 25.901 19.376 93.328-4.202 186.167-0.222 0.872-0.348 1.744-0.421 2.612-40.662 41.54-97.35 67.328-160.071 67.328z">
+                        </path>
+                    </svg>
+                    <h3 class="card__title">
+                        Lorem Ipsum
+                    </h3>
+                    <p class="card__paragraph">
+                        Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi
+                    </p>
+                </div>
+            </div>
+            <div class="col-1-of-4">
+                <div class="card">
+                    <svg class="card__icon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="512" height="512"
+                        viewBox="0 0 512 512">
+                        <g id="icomoon-ignore">
+                        </g>
+                        <path
+                            d="M448 64v416h-336c-26.513 0-48-21.49-48-48s21.487-48 48-48h304v-384h-320c-35.199 0-64 28.8-64 64v384c0 35.2 28.801 64 64 64h384v-448h-32z">
+                        </path>
+                        <path
+                            d="M112.028 416v0c-0.009 0.001-0.019 0-0.028 0-8.836 0-16 7.163-16 16s7.164 16 16 16c0.009 0 0.019-0.001 0.028-0.001v0.001h303.945v-32h-303.945z">
+                        </path>
+                    </svg>
+
+                    <h3 class="card__title">
+                        Sed ut perspici
+                    </h3>
+                    <p class="card__paragraph">
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                    </p>
+                </div>
+            </div>
+            <div class="col-1-of-4">
+                <div class="card">
+                    <svg class="card__icon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="512" height="512"
+                        viewBox="0 0 512 512">
+                        <g id="icomoon-ignore">
+                        </g>
+                        <path d="M0 512c64-192 231.5-512 512-512-131.5 105.5-192 352-288 352s-96 0-96 0l-96 160h-32z">
+                        </path>
+                    </svg>
+
+
+                    <h3 class="card__title">
+                        Magni Dolores
+                    </h3>
+                    <p class="card__paragraph">
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                    </p>
+                </div>
+            </div>
+            <div class="col-1-of-4">
+                <div class="card">
+                    <svg class="card__icon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="1024" height="1024"
+                        viewBox="0 0 1024 1024">
+                        <g id="icomoon-ignore">
+                        </g>
+                        <path
+                            d="M938.688 96h-138.688v-64c0-17.696-14.304-32-32-32s-32 14.304-32 32v64h-192v-64c0-17.696-14.336-32-32-32s-32 14.304-32 32v64h-192v-64c0-17.696-14.336-32-32-32s-32 14.304-32 32v64h-138.656c-47.136 0-85.344 38.176-85.344 85.312v757.344c0 47.136 38.208 85.344 85.344 85.344h853.344c47.136 0 85.312-38.208 85.312-85.344v-757.344c0-47.136-38.176-85.312-85.312-85.312zM960 938.656c0 11.776-9.568 21.344-21.312 21.344h-853.344c-11.776 0-21.344-9.568-21.344-21.344v-757.344c0-11.744 9.568-21.312 21.344-21.312h138.656v64c0 17.696 14.336 32 32 32s32-14.304 32-32v-64h192v64c0 17.696 14.336 32 32 32s32-14.304 32-32v-64h192v64c0 17.696 14.304 32 32 32s32-14.304 32-32v-64h138.688c11.744 0 21.312 9.568 21.312 21.312v757.344zM224 384h128v96h-128zM224 544h128v96h-128zM224 704h128v96h-128zM448 704h128v96h-128zM448 544h128v96h-128zM448 384h128v96h-128zM672 704h128v96h-128zM672 544h128v96h-128zM672 384h128v96h-128z">
+                        </path>
+                    </svg>
+
+
+                    <h3 class="card__title">
+                        Nemo Enim
+                    </h3>
+                    <p class="card__paragraph">
+                        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="action-section">
+        <img class="action-section__bg" src="assets/img/cta-bg.jpg" alt="bg-photo">
+        <div class="action-section__container">
+            <div class="action-section__description-container">
+                <h2 class="action-section__title">
+                    Call To Action
+                </h2>
+                <p class="action-section__paragraph">
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                    pariatur.
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+                    est
+                    laborum.
+                </p>
+            </div>
+            <div class="action-section__btn-container">
+                <a href="#" class="action-section__btn btn">Call To Action</a>
+            </div>
+        </div>
+
+
+    </section>
+
+    <section id="portfolio" class="portfolio-section">
+        <div class="portfolio-section__container">
+            <div class="container-title">
+                <h2 class="section-title">portfolio</h2>
+                <p class="section-paragraph">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+                    consectetur velit</p>
+            </div>
+            <div class="portfolio-section__filter-container">
+                <ul class="portfolio-section__list">
+                    <li class="portfolio-section__item portfolio-section__item--active">All</li>
+                    <li class="portfolio-section__item">App</li>
+                    <li class="portfolio-section__item">Card</li>
+                    <li class="portfolio-section__item">web</li>
+                </ul>
+            </div>
+            <div class="portfolio-section__imgs-container">
+                <div class="portfolio-section__img-container portfolio-section__img-container--1">
+                    <img class="portfolio-section__img" src="assets/img/masonry-portfolio/masonry-portfolio-1.jpg"
+                        alt="photo">
+                </div>
+                <div class="portfolio-section__img-container portfolio-section__img-container--2">
+                    <img class="portfolio-section__img" src="assets/img/masonry-portfolio/masonry-portfolio-2.jpg"
+                        alt="photo">
+                </div>
+                <div class="portfolio-section__img-container portfolio-section__img-container--3">
+                    <img class="portfolio-section__img" src="assets/img/masonry-portfolio/masonry-portfolio-3.jpg"
+                        alt="photo">
+                </div>
+                <div class="portfolio-section__img-container portfolio-section__img-container--4">
+                    <img class="portfolio-section__img" src="assets/img/masonry-portfolio/masonry-portfolio-4.jpg"
+                        alt="photo">
+                </div>
+                <div class="portfolio-section__img-container portfolio-section__img-container--5">
+                    <img class="portfolio-section__img" src="assets/img/masonry-portfolio/masonry-portfolio-5.jpg"
+                        alt="photo">
+                </div>
+                <div class="portfolio-section__img-container portfolio-section__img-container--6">
+                    <img class="portfolio-section__img" src="assets/img/masonry-portfolio/masonry-portfolio-6.jpg"
+                        alt="photo">
+                </div>
+                <div class="portfolio-section__img-container portfolio-section__img-container--7">
+                    <img class="portfolio-section__img" src="assets/img/masonry-portfolio/masonry-portfolio-7.jpg"
+                        alt="photo">
+                </div>
+                <div class="portfolio-section__img-container portfolio-section__img-container--8">
+                    <img class="portfolio-section__img" src="assets/img/masonry-portfolio/masonry-portfolio-8.jpg"
+                        alt="photo">
+                </div>
+                <div class="portfolio-section__img-container portfolio-section__img-container--9">
+                    <img class="portfolio-section__img" src="assets/img/masonry-portfolio/masonry-portfolio-9.jpg"
+                        alt="photo">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="team" class="team-section">
+        <div class="container-title">
+            <h2 class="section-title">
+                team
+            </h2>
+            <p class="section-paragraph">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+                consectetur velit</p>
+        </div>
+        <div class="row">
+            <div class="col-1-of-2">
+                <div class="team-section__profile-container">
+                    <div class="team-section__pic-container">
+                        <img class="team-section__pic" src="assets/img/team/team-1.jpg" alt="photo">
+                    </div>
+                    <div class="team-section__detail-container">
+                        <h3 class="team-section__name">
+                            Walter White
+                        </h3>
+                        <p class="team-section__job">Chief Executive Officer</p>
+                        <span class="team-section__line"></span>
+                        <p class="team-section__description">Explicabo voluptatem mollitia et repellat qui dolorum quasi
+                        </p>
+                        <div class="team-section__social-container">
+                            <div class="team-section__list">
+                                <a class="team-section__item"><svg class="team-section__icon" version="1.1"
+                                        xmlns="http://www.w3.org/2000/svg" width="512" height="512"
+                                        viewBox="0 0 512 512">
+                                        <g id="icomoon-ignore">
+                                        </g>
+                                        <path
+                                            d="M512 113.2c-18.8 8.4-39.1 14-60.3 16.5 21.7-13 38.3-33.6 46.2-58.1-20.3 12-42.8 20.8-66.7 25.5-19.2-20.4-46.5-33.1-76.7-33.1-58 0-105 47-105 105 0 8.2 0.9 16.2 2.7 23.9-87.3-4.4-164.7-46.2-216.5-109.8-9 15.5-14.2 33.6-14.2 52.8 0 36.4 18.5 68.6 46.7 87.4-17.2-0.5-33.4-5.3-47.6-13.1 0 0.4 0 0.9 0 1.3 0 50.9 36.2 93.4 84.3 103-8.8 2.4-18.1 3.7-27.7 3.7-6.8 0-13.3-0.7-19.8-1.9 13.4 41.7 52.2 72.1 98.1 73-36 28.2-81.2 45-130.5 45-8.5 0-16.8-0.5-25.1-1.5 46.6 29.9 101.8 47.2 161.1 47.2 193.2 0 298.9-160.1 298.9-298.9 0-4.6-0.1-9.1-0.3-13.6 20.5-14.7 38.3-33.2 52.4-54.3z">
+                                        </path>
+                                    </svg></a>
+                                <a class="team-section__item"><svg class="team-section__icon" version="1.1"
+                                        xmlns="http://www.w3.org/2000/svg" width="512" height="512"
+                                        viewBox="0 0 512 512">
+                                        <g id="icomoon-ignore">
+                                        </g>
+                                        <path
+                                            d="M192 192h88.553v45.391h1.266c12.32-22.097 42.479-45.391 87.421-45.391 93.473 0 110.76 58.188 110.76 133.867v154.133h-92.305v-136.639c0-32.592-0.667-74.513-48.014-74.513-48.074 0-55.41 35.493-55.41 72.146v139.006h-92.271v-288z">
+                                        </path>
+                                        <path d="M32 192h96v288h-96v-288z"></path>
+                                        <path
+                                            d="M128 112c0 26.51-21.49 48-48 48s-48-21.49-48-48c0-26.51 21.49-48 48-48s48 21.49 48 48z">
+                                        </path>
+                                    </svg></a>
+                                <a class="team-section__item"><svg class="team-section__icon" version="1.1"
+                                        xmlns="http://www.w3.org/2000/svg" width="512" height="512"
+                                        viewBox="0 0 512 512">
+                                        <g id="icomoon-ignore">
+                                        </g>
+                                        <path
+                                            d="M304 96h80v-96h-80c-61.757 0-112 50.243-112 112v48h-64v96h64v256h96v-256h80l16-96h-96v-48c0-8.673 7.327-16 16-16z">
+                                        </path>
+                                    </svg></a>
+                                <a class="team-section__item"><svg class="team-section__icon" version="1.1"
+                                        xmlns="http://www.w3.org/2000/svg" width="512" height="512"
+                                        viewBox="0 0 512 512">
+                                        <g id="icomoon-ignore">
+                                        </g>
+                                        <path
+                                            d="M256 46.1c68.4 0 76.5 0.3 103.4 1.5 25 1.1 38.5 5.3 47.5 8.8 11.9 4.6 20.5 10.2 29.4 19.1 9 9 14.5 17.5 19.2 29.4 3.5 9 7.7 22.6 8.8 47.5 1.2 27 1.5 35.1 1.5 103.4s-0.3 76.5-1.5 103.4c-1.1 25-5.3 38.5-8.8 47.5-4.6 11.9-10.2 20.5-19.1 29.4-9 9-17.5 14.5-29.4 19.2-9 3.5-22.6 7.7-47.5 8.8-27 1.2-35.1 1.5-103.4 1.5s-76.5-0.3-103.4-1.5c-25-1.1-38.5-5.3-47.5-8.8-11.9-4.6-20.5-10.2-29.4-19.1-9-9-14.5-17.5-19.2-29.4-3.5-9-7.7-22.6-8.8-47.5-1.2-27-1.5-35.1-1.5-103.4s0.3-76.5 1.5-103.4c1.1-25 5.3-38.5 8.8-47.5 4.6-11.9 10.2-20.5 19.1-29.4 9-9 17.5-14.5 29.4-19.2 9-3.5 22.6-7.7 47.5-8.8 26.9-1.2 35-1.5 103.4-1.5zM256 0c-69.5 0-78.2 0.3-105.5 1.5-27.2 1.2-45.9 5.6-62.1 11.9-16.9 6.6-31.2 15.3-45.4 29.6-14.3 14.2-23 28.5-29.6 45.3-6.3 16.3-10.7 34.9-11.9 62.1-1.2 27.4-1.5 36.1-1.5 105.6s0.3 78.2 1.5 105.5c1.2 27.2 5.6 45.9 11.9 62.1 6.6 16.9 15.3 31.2 29.6 45.4 14.2 14.2 28.5 23 45.3 29.5 16.3 6.3 34.9 10.7 62.1 11.9 27.3 1.2 36 1.5 105.5 1.5s78.2-0.3 105.5-1.5c27.2-1.2 45.9-5.6 62.1-11.9 16.8-6.5 31.1-15.3 45.3-29.5s23-28.5 29.5-45.3c6.3-16.3 10.7-34.9 11.9-62.1 1.2-27.3 1.5-36 1.5-105.5s-0.3-78.2-1.5-105.5c-1.2-27.2-5.6-45.9-11.9-62.1-6.3-17-15-31.3-29.3-45.5-14.2-14.2-28.5-23-45.3-29.5-16.3-6.3-34.9-10.7-62.1-11.9-27.4-1.3-36.1-1.6-105.6-1.6v0z">
+                                        </path>
+                                        <path
+                                            d="M256 124.5c-72.6 0-131.5 58.9-131.5 131.5s58.9 131.5 131.5 131.5 131.5-58.9 131.5-131.5c0-72.6-58.9-131.5-131.5-131.5zM256 341.3c-47.1 0-85.3-38.2-85.3-85.3s38.2-85.3 85.3-85.3c47.1 0 85.3 38.2 85.3 85.3s-38.2 85.3-85.3 85.3z">
+                                        </path>
+                                        <path
+                                            d="M423.4 119.3c0 16.955-13.745 30.7-30.7 30.7s-30.7-13.745-30.7-30.7c0-16.955 13.745-30.7 30.7-30.7s30.7 13.745 30.7 30.7z">
+                                        </path>
+                                    </svg></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-1-of-2">
+                <div class="team-section__profile-container">
+                    <div class="team-section__pic-container">
+                        <img class="team-section__pic" src="assets/img/team/team-2.jpg" alt="photo">
+                    </div>
+                    <div class="team-section__detail-container">
+                        <h3 class="team-section__name">
+                            Sarah Jhonson
+                        </h3>
+                        <p class="team-section__job">Product Manager</p>
+                        <span class="team-section__line"></span>
+                        <p class="team-section__description">Aut maiores voluptates amet et quis praesentium qui senda
+                            para</p>
+                        <div class="team-section__social-container">
+                            <div class="team-section__list">
+                                <a class="team-section__item"><svg class="team-section__icon" version="1.1"
+                                        xmlns="http://www.w3.org/2000/svg" width="512" height="512"
+                                        viewBox="0 0 512 512">
+                                        <g id="icomoon-ignore">
+                                        </g>
+                                        <path
+                                            d="M512 113.2c-18.8 8.4-39.1 14-60.3 16.5 21.7-13 38.3-33.6 46.2-58.1-20.3 12-42.8 20.8-66.7 25.5-19.2-20.4-46.5-33.1-76.7-33.1-58 0-105 47-105 105 0 8.2 0.9 16.2 2.7 23.9-87.3-4.4-164.7-46.2-216.5-109.8-9 15.5-14.2 33.6-14.2 52.8 0 36.4 18.5 68.6 46.7 87.4-17.2-0.5-33.4-5.3-47.6-13.1 0 0.4 0 0.9 0 1.3 0 50.9 36.2 93.4 84.3 103-8.8 2.4-18.1 3.7-27.7 3.7-6.8 0-13.3-0.7-19.8-1.9 13.4 41.7 52.2 72.1 98.1 73-36 28.2-81.2 45-130.5 45-8.5 0-16.8-0.5-25.1-1.5 46.6 29.9 101.8 47.2 161.1 47.2 193.2 0 298.9-160.1 298.9-298.9 0-4.6-0.1-9.1-0.3-13.6 20.5-14.7 38.3-33.2 52.4-54.3z">
+                                        </path>
+                                    </svg></a>
+                                <a class="team-section__item"><svg class="team-section__icon" version="1.1"
+                                        xmlns="http://www.w3.org/2000/svg" width="512" height="512"
+                                        viewBox="0 0 512 512">
+                                        <g id="icomoon-ignore">
+                                        </g>
+                                        <path
+                                            d="M192 192h88.553v45.391h1.266c12.32-22.097 42.479-45.391 87.421-45.391 93.473 0 110.76 58.188 110.76 133.867v154.133h-92.305v-136.639c0-32.592-0.667-74.513-48.014-74.513-48.074 0-55.41 35.493-55.41 72.146v139.006h-92.271v-288z">
+                                        </path>
+                                        <path d="M32 192h96v288h-96v-288z"></path>
+                                        <path
+                                            d="M128 112c0 26.51-21.49 48-48 48s-48-21.49-48-48c0-26.51 21.49-48 48-48s48 21.49 48 48z">
+                                        </path>
+                                    </svg></a>
+                                <a class="team-section__item"><svg class="team-section__icon" version="1.1"
+                                        xmlns="http://www.w3.org/2000/svg" width="512" height="512"
+                                        viewBox="0 0 512 512">
+                                        <g id="icomoon-ignore">
+                                        </g>
+                                        <path
+                                            d="M304 96h80v-96h-80c-61.757 0-112 50.243-112 112v48h-64v96h64v256h96v-256h80l16-96h-96v-48c0-8.673 7.327-16 16-16z">
+                                        </path>
+                                    </svg></a>
+                                <a class="team-section__item"><svg class="team-section__icon" version="1.1"
+                                        xmlns="http://www.w3.org/2000/svg" width="512" height="512"
+                                        viewBox="0 0 512 512">
+                                        <g id="icomoon-ignore">
+                                        </g>
+                                        <path
+                                            d="M256 46.1c68.4 0 76.5 0.3 103.4 1.5 25 1.1 38.5 5.3 47.5 8.8 11.9 4.6 20.5 10.2 29.4 19.1 9 9 14.5 17.5 19.2 29.4 3.5 9 7.7 22.6 8.8 47.5 1.2 27 1.5 35.1 1.5 103.4s-0.3 76.5-1.5 103.4c-1.1 25-5.3 38.5-8.8 47.5-4.6 11.9-10.2 20.5-19.1 29.4-9 9-17.5 14.5-29.4 19.2-9 3.5-22.6 7.7-47.5 8.8-27 1.2-35.1 1.5-103.4 1.5s-76.5-0.3-103.4-1.5c-25-1.1-38.5-5.3-47.5-8.8-11.9-4.6-20.5-10.2-29.4-19.1-9-9-14.5-17.5-19.2-29.4-3.5-9-7.7-22.6-8.8-47.5-1.2-27-1.5-35.1-1.5-103.4s0.3-76.5 1.5-103.4c1.1-25 5.3-38.5 8.8-47.5 4.6-11.9 10.2-20.5 19.1-29.4 9-9 17.5-14.5 29.4-19.2 9-3.5 22.6-7.7 47.5-8.8 26.9-1.2 35-1.5 103.4-1.5zM256 0c-69.5 0-78.2 0.3-105.5 1.5-27.2 1.2-45.9 5.6-62.1 11.9-16.9 6.6-31.2 15.3-45.4 29.6-14.3 14.2-23 28.5-29.6 45.3-6.3 16.3-10.7 34.9-11.9 62.1-1.2 27.4-1.5 36.1-1.5 105.6s0.3 78.2 1.5 105.5c1.2 27.2 5.6 45.9 11.9 62.1 6.6 16.9 15.3 31.2 29.6 45.4 14.2 14.2 28.5 23 45.3 29.5 16.3 6.3 34.9 10.7 62.1 11.9 27.3 1.2 36 1.5 105.5 1.5s78.2-0.3 105.5-1.5c27.2-1.2 45.9-5.6 62.1-11.9 16.8-6.5 31.1-15.3 45.3-29.5s23-28.5 29.5-45.3c6.3-16.3 10.7-34.9 11.9-62.1 1.2-27.3 1.5-36 1.5-105.5s-0.3-78.2-1.5-105.5c-1.2-27.2-5.6-45.9-11.9-62.1-6.3-17-15-31.3-29.3-45.5-14.2-14.2-28.5-23-45.3-29.5-16.3-6.3-34.9-10.7-62.1-11.9-27.4-1.3-36.1-1.6-105.6-1.6v0z">
+                                        </path>
+                                        <path
+                                            d="M256 124.5c-72.6 0-131.5 58.9-131.5 131.5s58.9 131.5 131.5 131.5 131.5-58.9 131.5-131.5c0-72.6-58.9-131.5-131.5-131.5zM256 341.3c-47.1 0-85.3-38.2-85.3-85.3s38.2-85.3 85.3-85.3c47.1 0 85.3 38.2 85.3 85.3s-38.2 85.3-85.3 85.3z">
+                                        </path>
+                                        <path
+                                            d="M423.4 119.3c0 16.955-13.745 30.7-30.7 30.7s-30.7-13.745-30.7-30.7c0-16.955 13.745-30.7 30.7-30.7s30.7 13.745 30.7 30.7z">
+                                        </path>
+                                    </svg></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-1-of-2">
+                <div class="team-section__profile-container">
+                    <div class="team-section__pic-container">
+                        <img class="team-section__pic" src="assets/img/team/team-3.jpg" alt="photo">
+                    </div>
+                    <div class="team-section__detail-container">
+                        <h3 class="team-section__name">
+                            William Anderson
+                        </h3>
+                        <p class="team-section__job">CTO</p>
+                        <span class="team-section__line"></span>
+                        <p class="team-section__description">Quisquam facilis cum velit laborum corrupti fuga rerum quia
+                        </p>
+                        <div class="team-section__social-container">
+                            <div class="team-section__list">
+                                <a class="team-section__item"><svg class="team-section__icon" version="1.1"
+                                        xmlns="http://www.w3.org/2000/svg" width="512" height="512"
+                                        viewBox="0 0 512 512">
+                                        <g id="icomoon-ignore">
+                                        </g>
+                                        <path
+                                            d="M512 113.2c-18.8 8.4-39.1 14-60.3 16.5 21.7-13 38.3-33.6 46.2-58.1-20.3 12-42.8 20.8-66.7 25.5-19.2-20.4-46.5-33.1-76.7-33.1-58 0-105 47-105 105 0 8.2 0.9 16.2 2.7 23.9-87.3-4.4-164.7-46.2-216.5-109.8-9 15.5-14.2 33.6-14.2 52.8 0 36.4 18.5 68.6 46.7 87.4-17.2-0.5-33.4-5.3-47.6-13.1 0 0.4 0 0.9 0 1.3 0 50.9 36.2 93.4 84.3 103-8.8 2.4-18.1 3.7-27.7 3.7-6.8 0-13.3-0.7-19.8-1.9 13.4 41.7 52.2 72.1 98.1 73-36 28.2-81.2 45-130.5 45-8.5 0-16.8-0.5-25.1-1.5 46.6 29.9 101.8 47.2 161.1 47.2 193.2 0 298.9-160.1 298.9-298.9 0-4.6-0.1-9.1-0.3-13.6 20.5-14.7 38.3-33.2 52.4-54.3z">
+                                        </path>
+                                    </svg></a>
+                                <a class="team-section__item"><svg class="team-section__icon" version="1.1"
+                                        xmlns="http://www.w3.org/2000/svg" width="512" height="512"
+                                        viewBox="0 0 512 512">
+                                        <g id="icomoon-ignore">
+                                        </g>
+                                        <path
+                                            d="M192 192h88.553v45.391h1.266c12.32-22.097 42.479-45.391 87.421-45.391 93.473 0 110.76 58.188 110.76 133.867v154.133h-92.305v-136.639c0-32.592-0.667-74.513-48.014-74.513-48.074 0-55.41 35.493-55.41 72.146v139.006h-92.271v-288z">
+                                        </path>
+                                        <path d="M32 192h96v288h-96v-288z"></path>
+                                        <path
+                                            d="M128 112c0 26.51-21.49 48-48 48s-48-21.49-48-48c0-26.51 21.49-48 48-48s48 21.49 48 48z">
+                                        </path>
+                                    </svg></a>
+                                <a class="team-section__item"><svg class="team-section__icon" version="1.1"
+                                        xmlns="http://www.w3.org/2000/svg" width="512" height="512"
+                                        viewBox="0 0 512 512">
+                                        <g id="icomoon-ignore">
+                                        </g>
+                                        <path
+                                            d="M304 96h80v-96h-80c-61.757 0-112 50.243-112 112v48h-64v96h64v256h96v-256h80l16-96h-96v-48c0-8.673 7.327-16 16-16z">
+                                        </path>
+                                    </svg></a>
+                                <a class="team-section__item"><svg class="team-section__icon" version="1.1"
+                                        xmlns="http://www.w3.org/2000/svg" width="512" height="512"
+                                        viewBox="0 0 512 512">
+                                        <g id="icomoon-ignore">
+                                        </g>
+                                        <path
+                                            d="M256 46.1c68.4 0 76.5 0.3 103.4 1.5 25 1.1 38.5 5.3 47.5 8.8 11.9 4.6 20.5 10.2 29.4 19.1 9 9 14.5 17.5 19.2 29.4 3.5 9 7.7 22.6 8.8 47.5 1.2 27 1.5 35.1 1.5 103.4s-0.3 76.5-1.5 103.4c-1.1 25-5.3 38.5-8.8 47.5-4.6 11.9-10.2 20.5-19.1 29.4-9 9-17.5 14.5-29.4 19.2-9 3.5-22.6 7.7-47.5 8.8-27 1.2-35.1 1.5-103.4 1.5s-76.5-0.3-103.4-1.5c-25-1.1-38.5-5.3-47.5-8.8-11.9-4.6-20.5-10.2-29.4-19.1-9-9-14.5-17.5-19.2-29.4-3.5-9-7.7-22.6-8.8-47.5-1.2-27-1.5-35.1-1.5-103.4s0.3-76.5 1.5-103.4c1.1-25 5.3-38.5 8.8-47.5 4.6-11.9 10.2-20.5 19.1-29.4 9-9 17.5-14.5 29.4-19.2 9-3.5 22.6-7.7 47.5-8.8 26.9-1.2 35-1.5 103.4-1.5zM256 0c-69.5 0-78.2 0.3-105.5 1.5-27.2 1.2-45.9 5.6-62.1 11.9-16.9 6.6-31.2 15.3-45.4 29.6-14.3 14.2-23 28.5-29.6 45.3-6.3 16.3-10.7 34.9-11.9 62.1-1.2 27.4-1.5 36.1-1.5 105.6s0.3 78.2 1.5 105.5c1.2 27.2 5.6 45.9 11.9 62.1 6.6 16.9 15.3 31.2 29.6 45.4 14.2 14.2 28.5 23 45.3 29.5 16.3 6.3 34.9 10.7 62.1 11.9 27.3 1.2 36 1.5 105.5 1.5s78.2-0.3 105.5-1.5c27.2-1.2 45.9-5.6 62.1-11.9 16.8-6.5 31.1-15.3 45.3-29.5s23-28.5 29.5-45.3c6.3-16.3 10.7-34.9 11.9-62.1 1.2-27.3 1.5-36 1.5-105.5s-0.3-78.2-1.5-105.5c-1.2-27.2-5.6-45.9-11.9-62.1-6.3-17-15-31.3-29.3-45.5-14.2-14.2-28.5-23-45.3-29.5-16.3-6.3-34.9-10.7-62.1-11.9-27.4-1.3-36.1-1.6-105.6-1.6v0z">
+                                        </path>
+                                        <path
+                                            d="M256 124.5c-72.6 0-131.5 58.9-131.5 131.5s58.9 131.5 131.5 131.5 131.5-58.9 131.5-131.5c0-72.6-58.9-131.5-131.5-131.5zM256 341.3c-47.1 0-85.3-38.2-85.3-85.3s38.2-85.3 85.3-85.3c47.1 0 85.3 38.2 85.3 85.3s-38.2 85.3-85.3 85.3z">
+                                        </path>
+                                        <path
+                                            d="M423.4 119.3c0 16.955-13.745 30.7-30.7 30.7s-30.7-13.745-30.7-30.7c0-16.955 13.745-30.7 30.7-30.7s30.7 13.745 30.7 30.7z">
+                                        </path>
+                                    </svg></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-1-of-2">
+                <div class="team-section__profile-container">
+                    <div class="team-section__pic-container">
+                        <img class="team-section__pic" src="assets/img/team/team-4.jpg" alt="photo">
+                    </div>
+                    <div class="team-section__detail-container">
+                        <h3 class="team-section__name">
+                            Amanda Jepson
+                        </h3>
+                        <p class="team-section__job">Accountant</p>
+                        <span class="team-section__line"></span>
+                        <p class="team-section__description">Dolorum tempora officiis odit laborum officiis et et
+                            accusamus</p>
+                        <div class="team-section__social-container">
+                            <div class="team-section__list">
+                                <a class="team-section__item"><svg class="team-section__icon" version="1.1"
+                                        xmlns="http://www.w3.org/2000/svg" width="512" height="512"
+                                        viewBox="0 0 512 512">
+                                        <g id="icomoon-ignore">
+                                        </g>
+                                        <path
+                                            d="M512 113.2c-18.8 8.4-39.1 14-60.3 16.5 21.7-13 38.3-33.6 46.2-58.1-20.3 12-42.8 20.8-66.7 25.5-19.2-20.4-46.5-33.1-76.7-33.1-58 0-105 47-105 105 0 8.2 0.9 16.2 2.7 23.9-87.3-4.4-164.7-46.2-216.5-109.8-9 15.5-14.2 33.6-14.2 52.8 0 36.4 18.5 68.6 46.7 87.4-17.2-0.5-33.4-5.3-47.6-13.1 0 0.4 0 0.9 0 1.3 0 50.9 36.2 93.4 84.3 103-8.8 2.4-18.1 3.7-27.7 3.7-6.8 0-13.3-0.7-19.8-1.9 13.4 41.7 52.2 72.1 98.1 73-36 28.2-81.2 45-130.5 45-8.5 0-16.8-0.5-25.1-1.5 46.6 29.9 101.8 47.2 161.1 47.2 193.2 0 298.9-160.1 298.9-298.9 0-4.6-0.1-9.1-0.3-13.6 20.5-14.7 38.3-33.2 52.4-54.3z">
+                                        </path>
+                                    </svg></a>
+                                <a class="team-section__item"><svg class="team-section__icon" version="1.1"
+                                        xmlns="http://www.w3.org/2000/svg" width="512" height="512"
+                                        viewBox="0 0 512 512">
+                                        <g id="icomoon-ignore">
+                                        </g>
+                                        <path
+                                            d="M192 192h88.553v45.391h1.266c12.32-22.097 42.479-45.391 87.421-45.391 93.473 0 110.76 58.188 110.76 133.867v154.133h-92.305v-136.639c0-32.592-0.667-74.513-48.014-74.513-48.074 0-55.41 35.493-55.41 72.146v139.006h-92.271v-288z">
+                                        </path>
+                                        <path d="M32 192h96v288h-96v-288z"></path>
+                                        <path
+                                            d="M128 112c0 26.51-21.49 48-48 48s-48-21.49-48-48c0-26.51 21.49-48 48-48s48 21.49 48 48z">
+                                        </path>
+                                    </svg></a>
+                                <a class="team-section__item"><svg class="team-section__icon" version="1.1"
+                                        xmlns="http://www.w3.org/2000/svg" width="512" height="512"
+                                        viewBox="0 0 512 512">
+                                        <g id="icomoon-ignore">
+                                        </g>
+                                        <path
+                                            d="M304 96h80v-96h-80c-61.757 0-112 50.243-112 112v48h-64v96h64v256h96v-256h80l16-96h-96v-48c0-8.673 7.327-16 16-16z">
+                                        </path>
+                                    </svg></a>
+                                <a class="team-section__item"><svg class="team-section__icon" version="1.1"
+                                        xmlns="http://www.w3.org/2000/svg" width="512" height="512"
+                                        viewBox="0 0 512 512">
+                                        <g id="icomoon-ignore">
+                                        </g>
+                                        <path
+                                            d="M256 46.1c68.4 0 76.5 0.3 103.4 1.5 25 1.1 38.5 5.3 47.5 8.8 11.9 4.6 20.5 10.2 29.4 19.1 9 9 14.5 17.5 19.2 29.4 3.5 9 7.7 22.6 8.8 47.5 1.2 27 1.5 35.1 1.5 103.4s-0.3 76.5-1.5 103.4c-1.1 25-5.3 38.5-8.8 47.5-4.6 11.9-10.2 20.5-19.1 29.4-9 9-17.5 14.5-29.4 19.2-9 3.5-22.6 7.7-47.5 8.8-27 1.2-35.1 1.5-103.4 1.5s-76.5-0.3-103.4-1.5c-25-1.1-38.5-5.3-47.5-8.8-11.9-4.6-20.5-10.2-29.4-19.1-9-9-14.5-17.5-19.2-29.4-3.5-9-7.7-22.6-8.8-47.5-1.2-27-1.5-35.1-1.5-103.4s0.3-76.5 1.5-103.4c1.1-25 5.3-38.5 8.8-47.5 4.6-11.9 10.2-20.5 19.1-29.4 9-9 17.5-14.5 29.4-19.2 9-3.5 22.6-7.7 47.5-8.8 26.9-1.2 35-1.5 103.4-1.5zM256 0c-69.5 0-78.2 0.3-105.5 1.5-27.2 1.2-45.9 5.6-62.1 11.9-16.9 6.6-31.2 15.3-45.4 29.6-14.3 14.2-23 28.5-29.6 45.3-6.3 16.3-10.7 34.9-11.9 62.1-1.2 27.4-1.5 36.1-1.5 105.6s0.3 78.2 1.5 105.5c1.2 27.2 5.6 45.9 11.9 62.1 6.6 16.9 15.3 31.2 29.6 45.4 14.2 14.2 28.5 23 45.3 29.5 16.3 6.3 34.9 10.7 62.1 11.9 27.3 1.2 36 1.5 105.5 1.5s78.2-0.3 105.5-1.5c27.2-1.2 45.9-5.6 62.1-11.9 16.8-6.5 31.1-15.3 45.3-29.5s23-28.5 29.5-45.3c6.3-16.3 10.7-34.9 11.9-62.1 1.2-27.3 1.5-36 1.5-105.5s-0.3-78.2-1.5-105.5c-1.2-27.2-5.6-45.9-11.9-62.1-6.3-17-15-31.3-29.3-45.5-14.2-14.2-28.5-23-45.3-29.5-16.3-6.3-34.9-10.7-62.1-11.9-27.4-1.3-36.1-1.6-105.6-1.6v0z">
+                                        </path>
+                                        <path
+                                            d="M256 124.5c-72.6 0-131.5 58.9-131.5 131.5s58.9 131.5 131.5 131.5 131.5-58.9 131.5-131.5c0-72.6-58.9-131.5-131.5-131.5zM256 341.3c-47.1 0-85.3-38.2-85.3-85.3s38.2-85.3 85.3-85.3c47.1 0 85.3 38.2 85.3 85.3s-38.2 85.3-85.3 85.3z">
+                                        </path>
+                                        <path
+                                            d="M423.4 119.3c0 16.955-13.745 30.7-30.7 30.7s-30.7-13.745-30.7-30.7c0-16.955 13.745-30.7 30.7-30.7s30.7 13.745 30.7 30.7z">
+                                        </path>
+                                    </svg></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="pricing-section">
+        <div class="container-title">
+            <h2 class="section-title">
+                Pricing
+            </h2>
+            <p class="section-paragraph">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+                consectetur velit</p>
+        </div>
+        <div class="row">
+            <div class="col-1-of-3">
+                <div class="pricing-section__container">
+                    <h3 class="pricing-section__name">
+                        Free Plan
+                    </h3>
+                    <h2 class="pricing-section__price"><sup>$</sup>0 <span>/ month</span></h2>
+                    <div class="pricing-section__option"><svg class="pricing-section__icon pricing-section__icon--check"
+                            version="1.1" xmlns="http://www.w3.org/2000/svg" width="512" height="512"
+                            viewBox="0 0 512 512">
+                            <g id="icomoon-ignore">
+                            </g>
+                            <path d="M432 64l-240 240-112-112-80 80 192 192 320-320z"></path>
+                        </svg>
+                        <p>Quam adipiscing vitae proin</p>
+                    </div>
+                    <div class="pricing-section__option"><svg class="pricing-section__icon pricing-section__icon--check"
+                            version="1.1" xmlns="http://www.w3.org/2000/svg" width="512" height="512"
+                            viewBox="0 0 512 512">
+                            <g id="icomoon-ignore">
+                            </g>
+                            <path d="M432 64l-240 240-112-112-80 80 192 192 320-320z"></path>
+                        </svg>
+                        <p>Nec feugiat nisl pretium</p>
+                    </div>
+                    <div class="pricing-section__option"><svg class="pricing-section__icon pricing-section__icon--check"
+                            version="1.1" xmlns="http://www.w3.org/2000/svg" width="512" height="512"
+                            viewBox="0 0 512 512">
+                            <g id="icomoon-ignore">
+                            </g>
+                            <path d="M432 64l-240 240-112-112-80 80 192 192 320-320z"></path>
+                        </svg>
+                        <p>Nulla at volutpat diam uteera</p>
+                    </div>
+                    <div class="pricing-section__option"><svg class="pricing-section__icon pricing-section__icon--x"
+                            version="1.1" xmlns="http://www.w3.org/2000/svg" width="512" height="512"
+                            viewBox="0 0 512 512">
+                            <g id="icomoon-ignore">
+                            </g>
+                            <path
+                                d="M507.331 411.33c-0.002-0.002-0.004-0.004-0.006-0.005l-155.322-155.325 155.322-155.325c0.002-0.002 0.004-0.003 0.006-0.005 1.672-1.673 2.881-3.627 3.656-5.708 2.123-5.688 0.912-12.341-3.662-16.915l-73.373-73.373c-4.574-4.573-11.225-5.783-16.914-3.66-2.080 0.775-4.035 1.984-5.709 3.655 0 0.002-0.002 0.003-0.004 0.005l-155.324 155.326-155.324-155.325c-0.002-0.002-0.003-0.003-0.005-0.005-1.673-1.671-3.627-2.88-5.707-3.655-5.69-2.124-12.341-0.913-16.915 3.66l-73.374 73.374c-4.574 4.574-5.784 11.226-3.661 16.914 0.776 2.080 1.985 4.036 3.656 5.708 0.002 0.001 0.003 0.003 0.005 0.005l155.325 155.324-155.325 155.326c-0.001 0.002-0.003 0.003-0.004 0.005-1.671 1.673-2.88 3.627-3.657 5.707-2.124 5.688-0.913 12.341 3.661 16.915l73.374 73.373c4.575 4.574 11.226 5.784 16.915 3.661 2.080-0.776 4.035-1.985 5.708-3.656 0.001-0.002 0.003-0.003 0.005-0.005l155.324-155.325 155.324 155.325c0.002 0.001 0.004 0.003 0.006 0.004 1.674 1.672 3.627 2.881 5.707 3.657 5.689 2.123 12.342 0.913 16.914-3.661l73.373-73.374c4.574-4.574 5.785-11.227 3.662-16.915-0.776-2.080-1.985-4.034-3.657-5.707z">
+                            </path>
+                        </svg>
+                        <p style="text-decoration: line-through;">Pharetra massa massa ultricies</p>
+                    </div>
+                    <div class="pricing-section__option"><svg class="pricing-section__icon pricing-section__icon--x"
+                            version="1.1" xmlns="http://www.w3.org/2000/svg" width="512" height="512"
+                            viewBox="0 0 512 512">
+                            <g id="icomoon-ignore">
+                            </g>
+                            <path
+                                d="M507.331 411.33c-0.002-0.002-0.004-0.004-0.006-0.005l-155.322-155.325 155.322-155.325c0.002-0.002 0.004-0.003 0.006-0.005 1.672-1.673 2.881-3.627 3.656-5.708 2.123-5.688 0.912-12.341-3.662-16.915l-73.373-73.373c-4.574-4.573-11.225-5.783-16.914-3.66-2.080 0.775-4.035 1.984-5.709 3.655 0 0.002-0.002 0.003-0.004 0.005l-155.324 155.326-155.324-155.325c-0.002-0.002-0.003-0.003-0.005-0.005-1.673-1.671-3.627-2.88-5.707-3.655-5.69-2.124-12.341-0.913-16.915 3.66l-73.374 73.374c-4.574 4.574-5.784 11.226-3.661 16.914 0.776 2.080 1.985 4.036 3.656 5.708 0.002 0.001 0.003 0.003 0.005 0.005l155.325 155.324-155.325 155.326c-0.001 0.002-0.003 0.003-0.004 0.005-1.671 1.673-2.88 3.627-3.657 5.707-2.124 5.688-0.913 12.341 3.661 16.915l73.374 73.373c4.575 4.574 11.226 5.784 16.915 3.661 2.080-0.776 4.035-1.985 5.708-3.656 0.001-0.002 0.003-0.003 0.005-0.005l155.324-155.325 155.324 155.325c0.002 0.001 0.004 0.003 0.006 0.004 1.674 1.672 3.627 2.881 5.707 3.657 5.689 2.123 12.342 0.913 16.914-3.661l73.373-73.374c4.574-4.574 5.785-11.227 3.662-16.915-0.776-2.080-1.985-4.034-3.657-5.707z">
+                            </path>
+                        </svg>
+                        <p style="text-decoration: line-through;">Massa ultricies mi quis hendrerit</p>
+                    </div>
+
+                    <a href="#" class="pricing-section__btn">Buy Now</a>
+                </div>
+            </div>
+            <div class="col-1-of-3">
+                <div class="pricing-section__container pricing-section__container--active">
+                    <h3 class="pricing-section__name">
+                        Business Plan
+                    </h3>
+                    <h2 class="pricing-section__price"><sup>$</sup>29 <span>/ month</span></h2>
+                    <div class="pricing-section__option"><svg class="pricing-section__icon pricing-section__icon--check"
+                            version="1.1" xmlns="http://www.w3.org/2000/svg" width="512" height="512"
+                            viewBox="0 0 512 512">
+                            <g id="icomoon-ignore">
+                            </g>
+                            <path d="M432 64l-240 240-112-112-80 80 192 192 320-320z"></path>
+                        </svg>
+                        <p>Quam adipiscing vitae proin</p>
+                    </div>
+                    <div class="pricing-section__option"><svg class="pricing-section__icon pricing-section__icon--check"
+                            version="1.1" xmlns="http://www.w3.org/2000/svg" width="512" height="512"
+                            viewBox="0 0 512 512">
+                            <g id="icomoon-ignore">
+                            </g>
+                            <path d="M432 64l-240 240-112-112-80 80 192 192 320-320z"></path>
+                        </svg>
+                        <p>Nec feugiat nisl pretium</p>
+                    </div>
+                    <div class="pricing-section__option"><svg class="pricing-section__icon pricing-section__icon--check"
+                            version="1.1" xmlns="http://www.w3.org/2000/svg" width="512" height="512"
+                            viewBox="0 0 512 512">
+                            <g id="icomoon-ignore">
+                            </g>
+                            <path d="M432 64l-240 240-112-112-80 80 192 192 320-320z"></path>
+                        </svg>
+                        <p>Nulla at volutpat diam uteera</p>
+                    </div>
+                    <div class="pricing-section__option"><svg class="pricing-section__icon pricing-section__icon--check"
+                            version="1.1" xmlns="http://www.w3.org/2000/svg" width="512" height="512"
+                            viewBox="0 0 512 512">
+                            <g id="icomoon-ignore">
+                            </g>
+                            <path d="M432 64l-240 240-112-112-80 80 192 192 320-320z"></path>
+                        </svg>
+                        <p>Pharetra massa massa ultricies</p>
+                    </div>
+                    <div class="pricing-section__option"><svg class="pricing-section__icon pricing-section__icon--check"
+                            version="1.1" xmlns="http://www.w3.org/2000/svg" width="512" height="512"
+                            viewBox="0 0 512 512">
+                            <g id="icomoon-ignore">
+                            </g>
+                            <path d="M432 64l-240 240-112-112-80 80 192 192 320-320z"></path>
+                        </svg>
+                        <p>Massa ultricies mi quis hendrerit</p>
+                    </div>
+                    <a href="#" class="pricing-section__btn">Buy Now</a>
+                </div>
+            </div>
+            <div class="col-1-of-3">
+                <div class="pricing-section__container">
+                    <h3 class="pricing-section__name">
+                        Developer Plan
+                    </h3>
+                    <h2 class="pricing-section__price"><sup>$</sup>49 <span>/ month</span></h2>
+                    <div class="pricing-section__option"><svg class="pricing-section__icon pricing-section__icon--check"
+                            version="1.1" xmlns="http://www.w3.org/2000/svg" width="512" height="512"
+                            viewBox="0 0 512 512">
+                            <g id="icomoon-ignore">
+                            </g>
+                            <path d="M432 64l-240 240-112-112-80 80 192 192 320-320z"></path>
+                        </svg>
+                        <p>Quam adipiscing vitae proin</p>
+                    </div>
+                    <div class="pricing-section__option"><svg class="pricing-section__icon pricing-section__icon--check"
+                            version="1.1" xmlns="http://www.w3.org/2000/svg" width="512" height="512"
+                            viewBox="0 0 512 512">
+                            <g id="icomoon-ignore">
+                            </g>
+                            <path d="M432 64l-240 240-112-112-80 80 192 192 320-320z"></path>
+                        </svg>
+                        <p>Nec feugiat nisl pretium</p>
+                    </div>
+                    <div class="pricing-section__option"><svg class="pricing-section__icon pricing-section__icon--check"
+                            version="1.1" xmlns="http://www.w3.org/2000/svg" width="512" height="512"
+                            viewBox="0 0 512 512">
+                            <g id="icomoon-ignore">
+                            </g>
+                            <path d="M432 64l-240 240-112-112-80 80 192 192 320-320z"></path>
+                        </svg>
+                        <p>Nulla at volutpat diam uteera</p>
+                    </div>
+                    <div class="pricing-section__option"><svg class="pricing-section__icon pricing-section__icon--check"
+                            version="1.1" xmlns="http://www.w3.org/2000/svg" width="512" height="512"
+                            viewBox="0 0 512 512">
+                            <g id="icomoon-ignore">
+                            </g>
+                            <path d="M432 64l-240 240-112-112-80 80 192 192 320-320z"></path>
+                        </svg>
+                        <p>Pharetra massa massa ultricies</p>
+                    </div>
+                    <div class="pricing-section__option"><svg class="pricing-section__icon pricing-section__icon--check"
+                            version="1.1" xmlns="http://www.w3.org/2000/svg" width="512" height="512"
+                            viewBox="0 0 512 512">
+                            <g id="icomoon-ignore">
+                            </g>
+                            <path d="M432 64l-240 240-112-112-80 80 192 192 320-320z"></path>
+                        </svg>
+                        <p>Massa ultricies mi quis hendrerit</p>
+                    </div>
+                    <a href="#" class="pricing-section__btn">Buy Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimo-section">
+        <div class="container-title">
+            <h2 class="section-title">
+                Testimonials
+            </h2>
+            <p class="section-paragraph">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+                consectetur velit</p>
+        </div>
+        <div class="swiper">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="swiper__container">
+                            <img src="assets/img/testimonials/testimonials-1.jpg" alt="photo" class="swiper__img">
+                            <div class="swiper__detail">
+                                <h3 class="swiper__name">Saul Goodman</h3>
+                                <p class="swiper__job">Ceo & Founder</p>
+                                <svg class="swiper__icon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="512"
+                                    height="512" viewBox="0 0 512 512">
+                                    <g id="icomoon-ignore">
+                                    </g>
+                                    <path
+                                        d="M512 198.525l-176.89-25.704-79.11-160.291-79.108 160.291-176.892 25.704 128 124.769-30.216 176.176 158.216-83.179 158.216 83.179-30.217-176.176 128.001-124.769z">
+                                    </path>
+                                </svg>
+                                <svg class="swiper__icon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="512"
+                                    height="512" viewBox="0 0 512 512">
+                                    <g id="icomoon-ignore">
+                                    </g>
+                                    <path
+                                        d="M512 198.525l-176.89-25.704-79.11-160.291-79.108 160.291-176.892 25.704 128 124.769-30.216 176.176 158.216-83.179 158.216 83.179-30.217-176.176 128.001-124.769z">
+                                    </path>
+                                </svg>
+                                <svg class="swiper__icon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="512"
+                                    height="512" viewBox="0 0 512 512">
+                                    <g id="icomoon-ignore">
+                                    </g>
+                                    <path
+                                        d="M512 198.525l-176.89-25.704-79.11-160.291-79.108 160.291-176.892 25.704 128 124.769-30.216 176.176 158.216-83.179 158.216 83.179-30.217-176.176 128.001-124.769z">
+                                    </path>
+                                </svg>
+                                <svg class="swiper__icon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="512"
+                                    height="512" viewBox="0 0 512 512">
+                                    <g id="icomoon-ignore">
+                                    </g>
+                                    <path
+                                        d="M512 198.525l-176.89-25.704-79.11-160.291-79.108 160.291-176.892 25.704 128 124.769-30.216 176.176 158.216-83.179 158.216 83.179-30.217-176.176 128.001-124.769z">
+                                    </path>
+                                </svg>
+                                <svg class="swiper__icon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="512"
+                                    height="512" viewBox="0 0 512 512">
+                                    <g id="icomoon-ignore">
+                                    </g>
+                                    <path
+                                        d="M512 198.525l-176.89-25.704-79.11-160.291-79.108 160.291-176.892 25.704 128 124.769-30.216 176.176 158.216-83.179 158.216 83.179-30.217-176.176 128.001-124.769z">
+                                    </path>
+                                </svg>
+                                <p class="swiper__description">
+                                    Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+                                    consectetur velit mecessitatibus eius consequatur ex aliquid fuga eum quidem sint
+                                    consectetur velit secessitatibus eius consequatur ex aliquid fuga eum quidem sint
+                                    consectetur velit
+                                </p>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper__container">
+                            <img src="assets/img/testimonials/testimonials-2.jpg" alt="photo" class="swiper__img">
+                            <div class="swiper__detail">
+                                <h3 class="swiper__name">Sara Wilsson</h3>
+                                <p class="swiper__job">Designer</p>
+                                <svg class="swiper__icon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="512"
+                                    height="512" viewBox="0 0 512 512">
+                                    <g id="icomoon-ignore">
+                                    </g>
+                                    <path
+                                        d="M512 198.525l-176.89-25.704-79.11-160.291-79.108 160.291-176.892 25.704 128 124.769-30.216 176.176 158.216-83.179 158.216 83.179-30.217-176.176 128.001-124.769z">
+                                    </path>
+                                </svg>
+                                <svg class="swiper__icon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="512"
+                                    height="512" viewBox="0 0 512 512">
+                                    <g id="icomoon-ignore">
+                                    </g>
+                                    <path
+                                        d="M512 198.525l-176.89-25.704-79.11-160.291-79.108 160.291-176.892 25.704 128 124.769-30.216 176.176 158.216-83.179 158.216 83.179-30.217-176.176 128.001-124.769z">
+                                    </path>
+                                </svg>
+                                <svg class="swiper__icon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="512"
+                                    height="512" viewBox="0 0 512 512">
+                                    <g id="icomoon-ignore">
+                                    </g>
+                                    <path
+                                        d="M512 198.525l-176.89-25.704-79.11-160.291-79.108 160.291-176.892 25.704 128 124.769-30.216 176.176 158.216-83.179 158.216 83.179-30.217-176.176 128.001-124.769z">
+                                    </path>
+                                </svg>
+                                <svg class="swiper__icon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="512"
+                                    height="512" viewBox="0 0 512 512">
+                                    <g id="icomoon-ignore">
+                                    </g>
+                                    <path
+                                        d="M512 198.525l-176.89-25.704-79.11-160.291-79.108 160.291-176.892 25.704 128 124.769-30.216 176.176 158.216-83.179 158.216 83.179-30.217-176.176 128.001-124.769z">
+                                    </path>
+                                </svg>
+                                <svg class="swiper__icon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="512"
+                                    height="512" viewBox="0 0 512 512">
+                                    <g id="icomoon-ignore">
+                                    </g>
+                                    <path
+                                        d="M512 198.525l-176.89-25.704-79.11-160.291-79.108 160.291-176.892 25.704 128 124.769-30.216 176.176 158.216-83.179 158.216 83.179-30.217-176.176 128.001-124.769z">
+                                    </path>
+                                </svg>
+                                <p class="swiper__description">
+                                    Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+                                    consectetur velit
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper__container">
+                            <img src="assets/img/testimonials/testimonials-3.jpg" alt="photo" class="swiper__img">
+                            <div class="swiper__detail">
+                                <h3 class="swiper__name">Jena Karlis</h3>
+                                <p class="swiper__job">Store Owner</p>
+                                <svg class="swiper__icon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="512"
+                                    height="512" viewBox="0 0 512 512">
+                                    <g id="icomoon-ignore">
+                                    </g>
+                                    <path
+                                        d="M512 198.525l-176.89-25.704-79.11-160.291-79.108 160.291-176.892 25.704 128 124.769-30.216 176.176 158.216-83.179 158.216 83.179-30.217-176.176 128.001-124.769z">
+                                    </path>
+                                </svg>
+                                <svg class="swiper__icon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="512"
+                                    height="512" viewBox="0 0 512 512">
+                                    <g id="icomoon-ignore">
+                                    </g>
+                                    <path
+                                        d="M512 198.525l-176.89-25.704-79.11-160.291-79.108 160.291-176.892 25.704 128 124.769-30.216 176.176 158.216-83.179 158.216 83.179-30.217-176.176 128.001-124.769z">
+                                    </path>
+                                </svg>
+                                <svg class="swiper__icon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="512"
+                                    height="512" viewBox="0 0 512 512">
+                                    <g id="icomoon-ignore">
+                                    </g>
+                                    <path
+                                        d="M512 198.525l-176.89-25.704-79.11-160.291-79.108 160.291-176.892 25.704 128 124.769-30.216 176.176 158.216-83.179 158.216 83.179-30.217-176.176 128.001-124.769z">
+                                    </path>
+                                </svg>
+                                <svg class="swiper__icon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="512"
+                                    height="512" viewBox="0 0 512 512">
+                                    <g id="icomoon-ignore">
+                                    </g>
+                                    <path
+                                        d="M512 198.525l-176.89-25.704-79.11-160.291-79.108 160.291-176.892 25.704 128 124.769-30.216 176.176 158.216-83.179 158.216 83.179-30.217-176.176 128.001-124.769z">
+                                    </path>
+                                </svg>
+                                <svg class="swiper__icon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="512"
+                                    height="512" viewBox="0 0 512 512">
+                                    <g id="icomoon-ignore">
+                                    </g>
+                                    <path
+                                        d="M512 198.525l-176.89-25.704-79.11-160.291-79.108 160.291-176.892 25.704 128 124.769-30.216 176.176 158.216-83.179 158.216 83.179-30.217-176.176 128.001-124.769z">
+                                    </path>
+                                </svg>
+                                <p class="swiper__description">
+                                    Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+                                    consectetur velit eius consequatur ex aliquid fuga eum quidem sint
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper__container">
+                            <img src="assets/img/testimonials/testimonials-4.jpg" alt="photo" class="swiper__img">
+                            <div class="swiper__detail">
+                                <h3 class="swiper__name">Matt Brandon</h3>
+                                <p class="swiper__job">Freelancer</p>
+                                <svg class="swiper__icon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="512"
+                                    height="512" viewBox="0 0 512 512">
+                                    <g id="icomoon-ignore">
+                                    </g>
+                                    <path
+                                        d="M512 198.525l-176.89-25.704-79.11-160.291-79.108 160.291-176.892 25.704 128 124.769-30.216 176.176 158.216-83.179 158.216 83.179-30.217-176.176 128.001-124.769z">
+                                    </path>
+                                </svg>
+                                <svg class="swiper__icon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="512"
+                                    height="512" viewBox="0 0 512 512">
+                                    <g id="icomoon-ignore">
+                                    </g>
+                                    <path
+                                        d="M512 198.525l-176.89-25.704-79.11-160.291-79.108 160.291-176.892 25.704 128 124.769-30.216 176.176 158.216-83.179 158.216 83.179-30.217-176.176 128.001-124.769z">
+                                    </path>
+                                </svg>
+                                <svg class="swiper__icon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="512"
+                                    height="512" viewBox="0 0 512 512">
+                                    <g id="icomoon-ignore">
+                                    </g>
+                                    <path
+                                        d="M512 198.525l-176.89-25.704-79.11-160.291-79.108 160.291-176.892 25.704 128 124.769-30.216 176.176 158.216-83.179 158.216 83.179-30.217-176.176 128.001-124.769z">
+                                    </path>
+                                </svg>
+                                <svg class="swiper__icon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="512"
+                                    height="512" viewBox="0 0 512 512">
+                                    <g id="icomoon-ignore">
+                                    </g>
+                                    <path
+                                        d="M512 198.525l-176.89-25.704-79.11-160.291-79.108 160.291-176.892 25.704 128 124.769-30.216 176.176 158.216-83.179 158.216 83.179-30.217-176.176 128.001-124.769z">
+                                    </path>
+                                </svg>
+                                <svg class="swiper__icon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="512"
+                                    height="512" viewBox="0 0 512 512">
+                                    <g id="icomoon-ignore">
+                                    </g>
+                                    <path
+                                        d="M512 198.525l-176.89-25.704-79.11-160.291-79.108 160.291-176.892 25.704 128 124.769-30.216 176.176 158.216-83.179 158.216 83.179-30.217-176.176 128.001-124.769z">
+                                    </path>
+                                </svg>
+                                <p class="swiper__description">
+                                    Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+                                    consectetur velit consequatur ex aliquid fuga eum quidem sint
+                                    consectetur velit ecessitatibus eius consequatur ex aliquid fuga eum quidem sint
+                                    consectetur velit consequatur ex aliquid fuga eum quidem sint
+                                    consectetur velit
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper__container">
+                            <img src="assets/img/testimonials/testimonials-5.jpg" alt="photo" class="swiper__img">
+                            <div class="swiper__detail">
+                                <h3 class="swiper__name">John Larson</h3>
+                                <p class="swiper__job">Entrepreneur</p>
+                                <svg class="swiper__icon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="512"
+                                    height="512" viewBox="0 0 512 512">
+                                    <g id="icomoon-ignore">
+                                    </g>
+                                    <path
+                                        d="M512 198.525l-176.89-25.704-79.11-160.291-79.108 160.291-176.892 25.704 128 124.769-30.216 176.176 158.216-83.179 158.216 83.179-30.217-176.176 128.001-124.769z">
+                                    </path>
+                                </svg>
+                                <svg class="swiper__icon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="512"
+                                    height="512" viewBox="0 0 512 512">
+                                    <g id="icomoon-ignore">
+                                    </g>
+                                    <path
+                                        d="M512 198.525l-176.89-25.704-79.11-160.291-79.108 160.291-176.892 25.704 128 124.769-30.216 176.176 158.216-83.179 158.216 83.179-30.217-176.176 128.001-124.769z">
+                                    </path>
+                                </svg>
+                                <svg class="swiper__icon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="512"
+                                    height="512" viewBox="0 0 512 512">
+                                    <g id="icomoon-ignore">
+                                    </g>
+                                    <path
+                                        d="M512 198.525l-176.89-25.704-79.11-160.291-79.108 160.291-176.892 25.704 128 124.769-30.216 176.176 158.216-83.179 158.216 83.179-30.217-176.176 128.001-124.769z">
+                                    </path>
+                                </svg>
+                                <svg class="swiper__icon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="512"
+                                    height="512" viewBox="0 0 512 512">
+                                    <g id="icomoon-ignore">
+                                    </g>
+                                    <path
+                                        d="M512 198.525l-176.89-25.704-79.11-160.291-79.108 160.291-176.892 25.704 128 124.769-30.216 176.176 158.216-83.179 158.216 83.179-30.217-176.176 128.001-124.769z">
+                                    </path>
+                                </svg>
+                                <svg class="swiper__icon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="512"
+                                    height="512" viewBox="0 0 512 512">
+                                    <g id="icomoon-ignore">
+                                    </g>
+                                    <path
+                                        d="M512 198.525l-176.89-25.704-79.11-160.291-79.108 160.291-176.892 25.704 128 124.769-30.216 176.176 158.216-83.179 158.216 83.179-30.217-176.176 128.001-124.769z">
+                                    </path>
+                                </svg>
+                                <p class="swiper__description">
+                                    Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+                                    consectetur velit ecessitatibus eius consequatur ex aliquid fuga eum quidem sint
+                                    consectetur velit
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="question-section">
+        <div class="container-title">
+            <h2 class="section-title">
+                Frequently Asked Questions
+            </h2>
+            <p class="section-paragraph">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid
+                fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit
+                suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.
+                consectetur velit</p>
+        </div>
+        <div class="question-section__container">
+
+            <div class="wideDown">
+                <div class="wideDown__item">
+                    <h3 class="wideDown__h3" data-target="click-4">
+                        <span class="wideDown__h3--span">
+                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                viewBox="0 0 768 768">
+                                <g id="icomoon-ignore">
+                                </g>
+                                <path
+                                    d="M736 384c0-97.184-39.424-185.248-103.104-248.896s-151.712-103.104-248.896-103.104-185.248 39.424-248.896 103.104-103.104 151.712-103.104 248.896 39.424 185.248 103.104 248.896 151.712 103.104 248.896 103.104 185.248-39.424 248.896-103.104 103.104-151.712 103.104-248.896zM672 384c0 79.552-32.192 151.488-84.352 203.648s-124.096 84.352-203.648 84.352-151.488-32.192-203.648-84.352-84.352-124.096-84.352-203.648 32.192-151.488 84.352-203.648 124.096-84.352 203.648-84.352 151.488 32.192 203.648 84.352 84.352 124.096 84.352 203.648zM321.056 298.624c5.856-16.672 17.888-29.376 32.704-36.48s32.224-8.544 48.896-2.656c14.656 5.152 26.208 15.040 33.6 27.488 5.856 9.824 9.088 21.28 9.152 33.184 0 4.96-1.248 9.888-3.744 14.848-2.56 5.12-6.496 10.4-11.776 15.68-22.688 22.688-58.592 34.944-58.592 34.944-16.768 5.6-25.824 23.712-20.224 40.48s23.712 25.824 40.48 20.224c0 0 49.408-16.192 83.616-50.4 8.928-8.928 17.44-19.648 23.776-32.32 6.4-12.8 10.496-27.456 10.496-43.808-0.128-23.392-6.528-45.984-18.144-65.568-14.816-24.896-38.080-44.864-67.36-55.168-33.344-11.712-68.32-8.8-97.824 5.344s-53.696 39.616-65.408 72.96c-5.888 16.672 2.88 34.944 19.552 40.8s34.944-2.912 40.8-19.552zM384 576c17.664 0 32-14.336 32-32s-14.336-32-32-32-32 14.336-32 32 14.336 32 32 32z">
+                                </path>
+                            </svg>
+
+                        </span>
+                        Non consectetur a erat nam at lectus urna duis?
+                    </h3>
+                    <svg class="wideDown__icon" xmlns="http://www.w3.org/2000/svg" height="20px"
+                        viewBox="0 -960 960 960" width="20px" fill="#555555">
+                        <path d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z" />
+                    </svg>
+                    <div id="click-4" class="wideDown__description-container">
+                        <p class="wideDown__description">Dolor sit amet consectetur adipiscing elit
+                            pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla
+                            phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper
+                            dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
+                    </div>
+                </div>
+
+                <div class="wideDown__item">
+                    <h3 class="wideDown__h3" data-target="click-5">
+                        <span class="wideDown__h3--span">
+                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                viewBox="0 0 768 768">
+                                <g id="icomoon-ignore">
+                                </g>
+                                <path
+                                    d="M736 384c0-97.184-39.424-185.248-103.104-248.896s-151.712-103.104-248.896-103.104-185.248 39.424-248.896 103.104-103.104 151.712-103.104 248.896 39.424 185.248 103.104 248.896 151.712 103.104 248.896 103.104 185.248-39.424 248.896-103.104 103.104-151.712 103.104-248.896zM672 384c0 79.552-32.192 151.488-84.352 203.648s-124.096 84.352-203.648 84.352-151.488-32.192-203.648-84.352-84.352-124.096-84.352-203.648 32.192-151.488 84.352-203.648 124.096-84.352 203.648-84.352 151.488 32.192 203.648 84.352 84.352 124.096 84.352 203.648zM321.056 298.624c5.856-16.672 17.888-29.376 32.704-36.48s32.224-8.544 48.896-2.656c14.656 5.152 26.208 15.040 33.6 27.488 5.856 9.824 9.088 21.28 9.152 33.184 0 4.96-1.248 9.888-3.744 14.848-2.56 5.12-6.496 10.4-11.776 15.68-22.688 22.688-58.592 34.944-58.592 34.944-16.768 5.6-25.824 23.712-20.224 40.48s23.712 25.824 40.48 20.224c0 0 49.408-16.192 83.616-50.4 8.928-8.928 17.44-19.648 23.776-32.32 6.4-12.8 10.496-27.456 10.496-43.808-0.128-23.392-6.528-45.984-18.144-65.568-14.816-24.896-38.080-44.864-67.36-55.168-33.344-11.712-68.32-8.8-97.824 5.344s-53.696 39.616-65.408 72.96c-5.888 16.672 2.88 34.944 19.552 40.8s34.944-2.912 40.8-19.552zM384 576c17.664 0 32-14.336 32-32s-14.336-32-32-32-32 14.336-32 32 14.336 32 32 32z">
+                                </path>
+                            </svg>
+
+                        </span>
+                        Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?
+                    </h3>
+                    <svg class="wideDown__icon" xmlns="http://www.w3.org/2000/svg" height="20px"
+                        viewBox="0 -960 960 960" width="20px" fill="#555555">
+                        <path d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z" />
+                    </svg>
+                    <div id="click-5" class="wideDown__description-container">
+                        <p class="wideDown__description">Feugiat pretium nibh ipsum consequat. Tempus iaculis
+                            urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla
+                            urna porttitor rhoncus dolor purus non.</p>
+                    </div>
+                </div>
+
+                <div class="wideDown__item">
+                    <h3 class="wideDown__h3" data-target="click-6">
+                        <span class="wideDown__h3--span">
+                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                viewBox="0 0 768 768">
+                                <g id="icomoon-ignore">
+                                </g>
+                                <path
+                                    d="M736 384c0-97.184-39.424-185.248-103.104-248.896s-151.712-103.104-248.896-103.104-185.248 39.424-248.896 103.104-103.104 151.712-103.104 248.896 39.424 185.248 103.104 248.896 151.712 103.104 248.896 103.104 185.248-39.424 248.896-103.104 103.104-151.712 103.104-248.896zM672 384c0 79.552-32.192 151.488-84.352 203.648s-124.096 84.352-203.648 84.352-151.488-32.192-203.648-84.352-84.352-124.096-84.352-203.648 32.192-151.488 84.352-203.648 124.096-84.352 203.648-84.352 151.488 32.192 203.648 84.352 84.352 124.096 84.352 203.648zM321.056 298.624c5.856-16.672 17.888-29.376 32.704-36.48s32.224-8.544 48.896-2.656c14.656 5.152 26.208 15.040 33.6 27.488 5.856 9.824 9.088 21.28 9.152 33.184 0 4.96-1.248 9.888-3.744 14.848-2.56 5.12-6.496 10.4-11.776 15.68-22.688 22.688-58.592 34.944-58.592 34.944-16.768 5.6-25.824 23.712-20.224 40.48s23.712 25.824 40.48 20.224c0 0 49.408-16.192 83.616-50.4 8.928-8.928 17.44-19.648 23.776-32.32 6.4-12.8 10.496-27.456 10.496-43.808-0.128-23.392-6.528-45.984-18.144-65.568-14.816-24.896-38.080-44.864-67.36-55.168-33.344-11.712-68.32-8.8-97.824 5.344s-53.696 39.616-65.408 72.96c-5.888 16.672 2.88 34.944 19.552 40.8s34.944-2.912 40.8-19.552zM384 576c17.664 0 32-14.336 32-32s-14.336-32-32-32-32 14.336-32 32 14.336 32 32 32z">
+                                </path>
+                            </svg>
+                        </span>
+                        Dolor sit amet consectetur adipiscing elit pellentesque?
+                    </h3>
+                    <svg class="wideDown__icon" xmlns="http://www.w3.org/2000/svg" height="20px"
+                        viewBox="0 -960 960 960" width="20px" fill="#555555">
+                        <path d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z" />
+                    </svg>
+                    <div id="click-6" class="wideDown__description-container">
+                        <p class="wideDown__description">Eleifend mi in nulla posuere sollicitudin aliquam
+                            ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra
+                            diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis
+                            convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
+                        </p>
+                    </div>
+                </div>
+
+                <div class="wideDown__item">
+                    <h3 class="wideDown__h3" data-target="click-7">
+                        <span class="wideDown__h3--span">
+                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                viewBox="0 0 768 768">
+                                <g id="icomoon-ignore">
+                                </g>
+                                <path
+                                    d="M736 384c0-97.184-39.424-185.248-103.104-248.896s-151.712-103.104-248.896-103.104-185.248 39.424-248.896 103.104-103.104 151.712-103.104 248.896 39.424 185.248 103.104 248.896 151.712 103.104 248.896 103.104 185.248-39.424 248.896-103.104 103.104-151.712 103.104-248.896zM672 384c0 79.552-32.192 151.488-84.352 203.648s-124.096 84.352-203.648 84.352-151.488-32.192-203.648-84.352-84.352-124.096-84.352-203.648 32.192-151.488 84.352-203.648 124.096-84.352 203.648-84.352 151.488 32.192 203.648 84.352 84.352 124.096 84.352 203.648zM321.056 298.624c5.856-16.672 17.888-29.376 32.704-36.48s32.224-8.544 48.896-2.656c14.656 5.152 26.208 15.040 33.6 27.488 5.856 9.824 9.088 21.28 9.152 33.184 0 4.96-1.248 9.888-3.744 14.848-2.56 5.12-6.496 10.4-11.776 15.68-22.688 22.688-58.592 34.944-58.592 34.944-16.768 5.6-25.824 23.712-20.224 40.48s23.712 25.824 40.48 20.224c0 0 49.408-16.192 83.616-50.4 8.928-8.928 17.44-19.648 23.776-32.32 6.4-12.8 10.496-27.456 10.496-43.808-0.128-23.392-6.528-45.984-18.144-65.568-14.816-24.896-38.080-44.864-67.36-55.168-33.344-11.712-68.32-8.8-97.824 5.344s-53.696 39.616-65.408 72.96c-5.888 16.672 2.88 34.944 19.552 40.8s34.944-2.912 40.8-19.552zM384 576c17.664 0 32-14.336 32-32s-14.336-32-32-32-32 14.336-32 32 14.336 32 32 32z">
+                                </path>
+                            </svg>
+                        </span>
+                        Non consectetur a erat nam at lectus urna duis?
+                    </h3>
+                    <svg class="wideDown__icon" xmlns="http://www.w3.org/2000/svg" height="20px"
+                        viewBox="0 -960 960 960" width="20px" fill="#555555">
+                        <path d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z" />
+                    </svg>
+                    <div id="click-7" class="wideDown__description-container">
+                        <p class="wideDown__description">Dolor sit amet consectetur adipiscing elit
+                            pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla
+                            phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper
+                            dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
+                    </div>
+                </div>
+
+                <div class="wideDown__item">
+                    <h3 class="wideDown__h3" data-target="click-8">
+                        <span class="wideDown__h3--span">
+                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                viewBox="0 0 768 768">
+                                <g id="icomoon-ignore">
+                                </g>
+                                <path
+                                    d="M736 384c0-97.184-39.424-185.248-103.104-248.896s-151.712-103.104-248.896-103.104-185.248 39.424-248.896 103.104-103.104 151.712-103.104 248.896 39.424 185.248 103.104 248.896 151.712 103.104 248.896 103.104 185.248-39.424 248.896-103.104 103.104-151.712 103.104-248.896zM672 384c0 79.552-32.192 151.488-84.352 203.648s-124.096 84.352-203.648 84.352-151.488-32.192-203.648-84.352-84.352-124.096-84.352-203.648 32.192-151.488 84.352-203.648 124.096-84.352 203.648-84.352 151.488 32.192 203.648 84.352 84.352 124.096 84.352 203.648zM321.056 298.624c5.856-16.672 17.888-29.376 32.704-36.48s32.224-8.544 48.896-2.656c14.656 5.152 26.208 15.040 33.6 27.488 5.856 9.824 9.088 21.28 9.152 33.184 0 4.96-1.248 9.888-3.744 14.848-2.56 5.12-6.496 10.4-11.776 15.68-22.688 22.688-58.592 34.944-58.592 34.944-16.768 5.6-25.824 23.712-20.224 40.48s23.712 25.824 40.48 20.224c0 0 49.408-16.192 83.616-50.4 8.928-8.928 17.44-19.648 23.776-32.32 6.4-12.8 10.496-27.456 10.496-43.808-0.128-23.392-6.528-45.984-18.144-65.568-14.816-24.896-38.080-44.864-67.36-55.168-33.344-11.712-68.32-8.8-97.824 5.344s-53.696 39.616-65.408 72.96c-5.888 16.672 2.88 34.944 19.552 40.8s34.944-2.912 40.8-19.552zM384 576c17.664 0 32-14.336 32-32s-14.336-32-32-32-32 14.336-32 32 14.336 32 32 32z">
+                                </path>
+                            </svg>
+                        </span>
+                        Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?
+                    </h3>
+                    <svg class="wideDown__icon" xmlns="http://www.w3.org/2000/svg" height="20px"
+                        viewBox="0 -960 960 960" width="20px" fill="#555555">
+                        <path d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z" />
+                    </svg>
+                    <div id="click-8" class="wideDown__description-container">
+                        <p class="wideDown__description">Feugiat pretium nibh ipsum consequat. Tempus iaculis
+                            urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla
+                            urna porttitor rhoncus dolor purus non.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-section">
+        <div class="container-title">
+            <h2 class="section-title">
+                Contact
+            </h2>
+            <p class="section-paragraph">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid
+                fuga eum quidem.</p>
+        </div>
+        <div class="contact-section__container">
+            <div class="contact-section__info">
+                <div class="contact-section__line">
+                    <div class="contact-section__icon-container">
+                        <svg class="contact-section__icon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="512"
+                            height="512" viewBox="0 0 512 512">
+                            <g id="icomoon-ignore">
+                            </g>
+                            <path
+                                d="M256 0c-88.366 0-160 71.634-160 160 0 160 160 352 160 352s160-192 160-352c0-88.366-71.635-160-160-160zM256 258c-54.124 0-98-43.876-98-98s43.876-98 98-98 98 43.876 98 98-43.876 98-98 98zM194 160c0-34.242 27.758-62 62-62s62 27.758 62 62c0 34.242-27.759 62-62 62s-62-27.758-62-62z">
+                            </path>
+                        </svg>
+                    </div>
+                    <div class="contact-section__detail-container">
+                        <h3 class="contact-section__main">Address</h3>
+                        <p class="contact-section__sub">A108 Adam Street, New York, NY 535022</p>
+                    </div>
+                </div>
+                <div class="contact-section__line">
+                    <div class="contact-section__icon-container">
+                        <svg class="contact-section__icon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="512"
+                            height="512" viewBox="0 0 512 512">
+                            <g id="icomoon-ignore">
+                            </g>
+                            <path
+                                d="M352 320c-32 32-32 64-64 64s-64-32-96-64-64-64-64-96 32-32 64-64-64-128-96-128-96 96-96 96c0 64 65.75 193.75 128 256s192 128 256 128c0 0 96-64 96-96s-96-128-128-96z">
+                            </path>
+                        </svg>
+                    </div>
+                    <div class="contact-section__detail-container">
+                        <h3 class="contact-section__main">Call Us</h3>
+                        <p class="contact-section__sub">+1 5589 55488 55</p>
+                    </div>
+                </div>
+                <div class="contact-section__line">
+                    <div class="contact-section__icon-container">
+                        <svg class="contact-section__icon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="512"
+                            height="512" viewBox="0 0 512 512">
+                            <g id="icomoon-ignore">
+                            </g>
+                            <path
+                                d="M464 64h-416c-26.4 0-48 21.6-48 48v320c0 26.4 21.6 48 48 48h416c26.4 0 48-21.6 48-48v-320c0-26.4-21.6-48-48-48zM199.37 275.186l-135.37 105.446v-250.821l135.37 145.375zM88.19 128h335.62l-167.81 126-167.81-126zM204.644 280.849l51.356 55.151 51.355-55.151 105.277 135.151h-313.264l105.276-135.151zM312.63 275.186l135.37-145.375v250.821l-135.37-105.446z">
+                            </path>
+                        </svg>
+                    </div>
+                    <div class="contact-section__detail-container">
+                        <h3 class="contact-section__main">Email Us</h3>
+                        <p class="contact-section__sub">info@example.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-section__form">
+                <form action="">
+                    <div class="contact-section__name-container">
+                        <div class="">
+                            <label class="label" for="name">Your Name</label>
+                            <input class="input" type="text" id="name" name="name" />
+                        </div>
+                        <div class="">
+                            <label class="label" for="email">Your Email</label>
+                            <input class="input" type="email" id="email" name="email" />
+                        </div>
+                    </div>
+                    <div class="">
+                        <label class="label" for="subject">Subject</label>
+                        <input class="input" type="text" id="subject" name="subject" />
+                    </div>
+                    <div class="">
+                        <label class="label" for="message">Message</label>
+                        <input class="input input__massage" type="text" id="message" name="message" />
+                    </div>
+                    <div class="contact-section__send-container">
+                        <a class="contact-section__send" href="#">Send Message</a>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="subscribe">
+            <div class="subscribe__container">
+                <h2 class="subscribe__title">
+                    Join Our Newsletter
+                </h2>
+                <p class="subscribe__paragraph">Subscribe to our newsletter and receive the latest news about our
+                    products and services!</p>
+                <div class="subscribe__inputs">
+                    <input class="subscribe__input" type="text">
+                    <input class="subscribe__submit" type="submit" value="Subscribe">
+                </div>
+            </div>
+
+        </div>
+        <div class="footer__container">
+            <div class="footer__info">
+                <h3 class="footer__title">ARSHA</h3>
+                <p class="footer__text">
+                    A108 Adam Street
+                </p>
+                <p class="footer__text footer__text--ap">New York, NY 535022</p>
+                <p class="footer__text"><span>Phone:</span> +1 5589 55488 55</p>
+                <p class="footer__text"><span>Email:</span> info@example.com</p>
+            </div>
+            <div class="footer__links">
+                <h3 class="footer__title">Useful Links</h3>
+                <ul class="footer__list">
+                    <li class="footer__item">
+                        <svg class="footer__icon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="20"
+                            height="20" viewBox="0 0 640 640">
+                            <g id="icomoon-ignore">
+                            </g>
+                            <path
+                                d="M414.4 342.624l22.624-22.624-181.024-181.024-45.248 45.248 135.744 135.776-135.744 135.776 45.248 45.248 158.4-158.4z">
+                            </path>
+                        </svg>
+                        <a class="footer__link" href="#">Home</a>
+                    </li>
+                    <li class="footer__item">
+                        <svg class="footer__icon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="20"
+                            height="20" viewBox="0 0 640 640">
+                            <g id="icomoon-ignore">
+                            </g>
+                            <path
+                                d="M414.4 342.624l22.624-22.624-181.024-181.024-45.248 45.248 135.744 135.776-135.744 135.776 45.248 45.248 158.4-158.4z">
+                            </path>
+                        </svg>
+                        <a class="footer__link" href="#">About us</a>
+                    </li>
+                    <li class="footer__item">
+                        <svg class="footer__icon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="20"
+                            height="20" viewBox="0 0 640 640">
+                            <g id="icomoon-ignore">
+                            </g>
+                            <path
+                                d="M414.4 342.624l22.624-22.624-181.024-181.024-45.248 45.248 135.744 135.776-135.744 135.776 45.248 45.248 158.4-158.4z">
+                            </path>
+                        </svg>
+                        <a class="footer__link" href="#">Services</a>
+                    </li>
+                    <li class="footer__item">
+                        <svg class="footer__icon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="20"
+                            height="20" viewBox="0 0 640 640">
+                            <g id="icomoon-ignore">
+                            </g>
+                            <path
+                                d="M414.4 342.624l22.624-22.624-181.024-181.024-45.248 45.248 135.744 135.776-135.744 135.776 45.248 45.248 158.4-158.4z">
+                            </path>
+                        </svg>
+                        <a class="footer__link" href="#">Terms of service</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__service">
+                <h3 class="footer__title">Our Services</h3>
+                <ul class="footer__list">
+                    <li class="footer__item">
+                        <svg class="footer__icon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="20"
+                            height="20" viewBox="0 0 640 640">
+                            <g id="icomoon-ignore">
+                            </g>
+                            <path
+                                d="M414.4 342.624l22.624-22.624-181.024-181.024-45.248 45.248 135.744 135.776-135.744 135.776 45.248 45.248 158.4-158.4z">
+                            </path>
+                        </svg>
+                        <a class="footer__link" href="#">Web Design</a>
+                    </li>
+                    <li class="footer__item">
+                        <svg class="footer__icon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="20"
+                            height="20" viewBox="0 0 640 640">
+                            <g id="icomoon-ignore">
+                            </g>
+                            <path
+                                d="M414.4 342.624l22.624-22.624-181.024-181.024-45.248 45.248 135.744 135.776-135.744 135.776 45.248 45.248 158.4-158.4z">
+                            </path>
+                        </svg>
+                        <a class="footer__link" href="#">Web Development</a>
+                    </li>
+                    <li class="footer__item">
+                        <svg class="footer__icon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="20"
+                            height="20" viewBox="0 0 640 640">
+                            <g id="icomoon-ignore">
+                            </g>
+                            <path
+                                d="M414.4 342.624l22.624-22.624-181.024-181.024-45.248 45.248 135.744 135.776-135.744 135.776 45.248 45.248 158.4-158.4z">
+                            </path>
+                        </svg>
+                        <a class="footer__link" href="#">Product Management</a>
+                    </li>
+                    <li class="footer__item">
+                        <svg class="footer__icon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="20"
+                            height="20" viewBox="0 0 640 640">
+                            <g id="icomoon-ignore">
+                            </g>
+                            <path
+                                d="M414.4 342.624l22.624-22.624-181.024-181.024-45.248 45.248 135.744 135.776-135.744 135.776 45.248 45.248 158.4-158.4z">
+                            </path>
+                        </svg>
+                        <a class="footer__link" href="#">Marketing</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__follow">
+                <h3 class="footer__title">Follow Us</h3>
+                <p class="footer__text">
+                    Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies
+                </p>
+                <div class="team-section__social-container">
+                    <div class="team-section__list">
+                        <a class="team-section__item"><svg class="team-section__icon" version="1.1"
+                                xmlns="http://www.w3.org/2000/svg" width="512" height="512"
+                                viewBox="0 0 512 512">
+                                <g id="icomoon-ignore">
+                                </g>
+                                <path
+                                    d="M512 113.2c-18.8 8.4-39.1 14-60.3 16.5 21.7-13 38.3-33.6 46.2-58.1-20.3 12-42.8 20.8-66.7 25.5-19.2-20.4-46.5-33.1-76.7-33.1-58 0-105 47-105 105 0 8.2 0.9 16.2 2.7 23.9-87.3-4.4-164.7-46.2-216.5-109.8-9 15.5-14.2 33.6-14.2 52.8 0 36.4 18.5 68.6 46.7 87.4-17.2-0.5-33.4-5.3-47.6-13.1 0 0.4 0 0.9 0 1.3 0 50.9 36.2 93.4 84.3 103-8.8 2.4-18.1 3.7-27.7 3.7-6.8 0-13.3-0.7-19.8-1.9 13.4 41.7 52.2 72.1 98.1 73-36 28.2-81.2 45-130.5 45-8.5 0-16.8-0.5-25.1-1.5 46.6 29.9 101.8 47.2 161.1 47.2 193.2 0 298.9-160.1 298.9-298.9 0-4.6-0.1-9.1-0.3-13.6 20.5-14.7 38.3-33.2 52.4-54.3z">
+                                </path>
+                            </svg></a>
+                        <a class="team-section__item"><svg class="team-section__icon" version="1.1"
+                                xmlns="http://www.w3.org/2000/svg" width="512" height="512"
+                                viewBox="0 0 512 512">
+                                <g id="icomoon-ignore">
+                                </g>
+                                <path
+                                    d="M192 192h88.553v45.391h1.266c12.32-22.097 42.479-45.391 87.421-45.391 93.473 0 110.76 58.188 110.76 133.867v154.133h-92.305v-136.639c0-32.592-0.667-74.513-48.014-74.513-48.074 0-55.41 35.493-55.41 72.146v139.006h-92.271v-288z">
+                                </path>
+                                <path d="M32 192h96v288h-96v-288z"></path>
+                                <path
+                                    d="M128 112c0 26.51-21.49 48-48 48s-48-21.49-48-48c0-26.51 21.49-48 48-48s48 21.49 48 48z">
+                                </path>
+                            </svg></a>
+                        <a class="team-section__item"><svg class="team-section__icon" version="1.1"
+                                xmlns="http://www.w3.org/2000/svg" width="512" height="512"
+                                viewBox="0 0 512 512">
+                                <g id="icomoon-ignore">
+                                </g>
+                                <path
+                                    d="M304 96h80v-96h-80c-61.757 0-112 50.243-112 112v48h-64v96h64v256h96v-256h80l16-96h-96v-48c0-8.673 7.327-16 16-16z">
+                                </path>
+                            </svg></a>
+                        <a class="team-section__item"><svg class="team-section__icon" version="1.1"
+                                xmlns="http://www.w3.org/2000/svg" width="512" height="512"
+                                viewBox="0 0 512 512">
+                                <g id="icomoon-ignore">
+                                </g>
+                                <path
+                                    d="M256 46.1c68.4 0 76.5 0.3 103.4 1.5 25 1.1 38.5 5.3 47.5 8.8 11.9 4.6 20.5 10.2 29.4 19.1 9 9 14.5 17.5 19.2 29.4 3.5 9 7.7 22.6 8.8 47.5 1.2 27 1.5 35.1 1.5 103.4s-0.3 76.5-1.5 103.4c-1.1 25-5.3 38.5-8.8 47.5-4.6 11.9-10.2 20.5-19.1 29.4-9 9-17.5 14.5-29.4 19.2-9 3.5-22.6 7.7-47.5 8.8-27 1.2-35.1 1.5-103.4 1.5s-76.5-0.3-103.4-1.5c-25-1.1-38.5-5.3-47.5-8.8-11.9-4.6-20.5-10.2-29.4-19.1-9-9-14.5-17.5-19.2-29.4-3.5-9-7.7-22.6-8.8-47.5-1.2-27-1.5-35.1-1.5-103.4s0.3-76.5 1.5-103.4c1.1-25 5.3-38.5 8.8-47.5 4.6-11.9 10.2-20.5 19.1-29.4 9-9 17.5-14.5 29.4-19.2 9-3.5 22.6-7.7 47.5-8.8 26.9-1.2 35-1.5 103.4-1.5zM256 0c-69.5 0-78.2 0.3-105.5 1.5-27.2 1.2-45.9 5.6-62.1 11.9-16.9 6.6-31.2 15.3-45.4 29.6-14.3 14.2-23 28.5-29.6 45.3-6.3 16.3-10.7 34.9-11.9 62.1-1.2 27.4-1.5 36.1-1.5 105.6s0.3 78.2 1.5 105.5c1.2 27.2 5.6 45.9 11.9 62.1 6.6 16.9 15.3 31.2 29.6 45.4 14.2 14.2 28.5 23 45.3 29.5 16.3 6.3 34.9 10.7 62.1 11.9 27.3 1.2 36 1.5 105.5 1.5s78.2-0.3 105.5-1.5c27.2-1.2 45.9-5.6 62.1-11.9 16.8-6.5 31.1-15.3 45.3-29.5s23-28.5 29.5-45.3c6.3-16.3 10.7-34.9 11.9-62.1 1.2-27.3 1.5-36 1.5-105.5s-0.3-78.2-1.5-105.5c-1.2-27.2-5.6-45.9-11.9-62.1-6.3-17-15-31.3-29.3-45.5-14.2-14.2-28.5-23-45.3-29.5-16.3-6.3-34.9-10.7-62.1-11.9-27.4-1.3-36.1-1.6-105.6-1.6v0z">
+                                </path>
+                                <path
+                                    d="M256 124.5c-72.6 0-131.5 58.9-131.5 131.5s58.9 131.5 131.5 131.5 131.5-58.9 131.5-131.5c0-72.6-58.9-131.5-131.5-131.5zM256 341.3c-47.1 0-85.3-38.2-85.3-85.3s38.2-85.3 85.3-85.3c47.1 0 85.3 38.2 85.3 85.3s-38.2 85.3-85.3 85.3z">
+                                </path>
+                                <path
+                                    d="M423.4 119.3c0 16.955-13.745 30.7-30.7 30.7s-30.7-13.745-30.7-30.7c0-16.955 13.745-30.7 30.7-30.7s30.7 13.745 30.7 30.7z">
+                                </path>
+                            </svg></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer__copyright">
+            <p>Designed by Elahe Fani</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
